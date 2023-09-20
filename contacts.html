@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts</title>
+</head>
+<body>
+<script>
+    let contacts = [{
+        name: "Maxwell Wright",
+        phone: "(0191) 719 6495",
+        email: "Curabitur.egestas.nunc@nonummyac.co.uk"
+    }, {
+        name: "Raja Villarreal",
+        phone: "0866 398 2895",
+        email: "posuere.vulputate@sed.com"
+    }, {
+        name: "Helen Richards",
+        phone: "0800 1111",
+        email: "libero@convallis.edu"
+    }];
+
+    function displayFirstContact(contacts) {
+        console.log(contacts[0].name);
+        console.log(contacts[0].phone);
+        console.log(contacts[0].email);
+    }
+
+    function displayLastContact(contacts) {
+        console.log(contacts[contacts.length - 1].name);
+        console.log(contacts[contacts.length - 1].phone);
+        console.log(contacts[contacts.length - 1].email);
+    }
+
+    function displayAllContact(contacts) {
+        for (let contact of contacts) {
+            console.log(contact.name);
+            console.log(contact.phone);
+            console.log(contact.email);
+        }
+    }
+
+    function addNewContact(contacts) {
+
+        let name = prompt("Enter name: ")
+        let phone = prompt("Enter phone number: ")
+        let email = prompt("Enter email address: ")
+
+        let newContact = {
+            name: name,
+            phone: phone,
+            email: email
+        }
+        contacts.push(newContact);
+    }
+
+
+    while (true) {
+        let option = (prompt(`Select a choice:
+        display the first contact (first)
+        display the last contact (last)
+        display all contacts (all)
+        add a new contact (new)
+        exit the program (quit)`));
+        if (option === "first") {
+            displayFirstContact(contacts);
+        } else if (option === "last") {
+
+            displayLastContact(contacts);
+        } else if (option === "all") {
+
+            displayAllContact(contacts);
+        } else if (option === "new") {
+
+            addNewContact(contacts);
+        } else if (option === "quit") {
+            break;
+        } else {
+
+            break;
+        }
+    }
+</script>
+
+</body>
+</html>

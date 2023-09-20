@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacts</title>
+</head>
+<body>
+<script>
+  let contacts = [{
+    name: "Maxwell Wright",
+    phone: "(0191) 719 6495",
+    email: "Curabitur.egestas.nunc@nonummyac.co.uk"
+  }, {
+    name: "Raja Villarreal",
+    phone: "0866 398 2895",
+    email: "posuere.vulputate@sed.com"
+  }, {
+    name: "Helen Richards",
+    phone: "0800 1111",
+    email: "libero@convallis.edu"
+  }];
+
+  function showContact(contacts, index) {
+    if (contacts instanceof Array){
+      console.log(contacts[index].name);
+      console.log(contacts[index].phone);
+      console.log(contacts[index].email);
+    }
+  }
+
+
+
+  function showAllContacts(contacts) {
+    if (contacts instanceof Array){
+      for (let contact of contacts) {
+        console.log(contact.name);
+        console.log(contact.phone);
+        console.log(contact.email);
+      }
+    }
+
+  }
+
+  function addNewContact(contacts, name, phone, email) {
+   if (contacts instanceof Array && name != null && phone != null && email != null){
+     let newContact = {
+       name: name,
+       phone: phone,
+       email: email
+     }
+     contacts.push(newContact);
+   }
+   }
+
+  while (true) {
+    let option = (prompt(`Select a choice:
+        display the any contact (contact)
+        display all contacts (all)
+        add a new contact (new)
+        exit the program (quit)`));
+    if (option === "contact") {
+      let index = prompt("Enter index number: 0 -"+(contacts.length-1))
+      showContact(contacts, index);
+    }
+      else if (option === "all") {
+
+      showAllContacts(contacts);
+    } else if (option === "new") {
+        let name = prompt("Enter your name: ")
+      let phone = prompt("Enter your phone number: ")
+      let email = prompt("Enter your email id: ")
+
+      addNewContact(contacts, name, phone, email);
+    } else if (option === "quit") {
+      break;
+    } else {
+
+      break;
+    }
+  }
+</script>
+
+</body>
+</html>
