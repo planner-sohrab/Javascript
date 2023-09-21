@@ -60,7 +60,7 @@ function sortByName(contacts){
 }
 
 function sortByPhone(contacts){
-
+    contacts.sort((a,b)=> a-b)
 }
 
 function sortByEmail(contacts){
