@@ -34,3 +34,35 @@ let addNewContact = function(contacts, name, phone, email) {
         });
     }
 }
+
+let choice = prompt("Do you want to sort the list? (Y/N)")
+if(choice === 'Y' || choice==='Yes' || choice ==="yes"){
+    let sortByChoice = prompt(`
+    1. Sort by name
+    2. Sort by phone
+    3. Sort by email
+    `)
+    switch (sortByChoice){
+        case 1:
+            sortByName(contacts);
+            break;
+        case 2:
+            sortByPhone(contacts);
+            break;
+        case 3:
+            sortByEmail(contacts);
+            break;
+    }
+}
+
+function sortByName(contacts){
+
+}
+
+function sortByPhone(contacts){
+
+}
+
+function sortByEmail(contacts){
+
+}
