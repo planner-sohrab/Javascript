@@ -68,7 +68,7 @@ p {
 
 .hero{
     height: 100vh;
-    background-color: #1f1f1f;
+    background-color: #1e1e1e;
 }
 
 .hero-main{
@@ -138,3 +138,16 @@ p {
     position: relative;
 }
 
+/*banner*/
+.banner{
+    height: 20vh;
+    width: 100%;
+    background-color: #454545;
+}
+
+.banner-logo{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    align-items: center;
+    margin-left: 20px;
+}
