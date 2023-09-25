@@ -6,6 +6,7 @@
 body{
     height: 100vh;
     width: 100%;
+    font-size:75%;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -405,4 +406,113 @@ p {
 .arrow-img h1{
     height: 60px;
     color: #fff;
+}
+
+.phone{
+    height: 100vh;
+    width: 100%;
+    background-color: #0d0d0d;
+}
+
+.phone-frame{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.phone-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 90vh;
+    width: 80%;
+    background-color: #faf5f5;
+    border-radius: 30px;
+    padding: 10px 10px;
+    position: relative;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 30px;
+    gap: 20px;
+}
+
+.top h1{
+    font-size: 30px;
+}
+.top div h2{
+    font-size: 25px;
+}
+
+.top span{
+    color: #6b6969;
+    font-size: 25px;
+}
+
+.top p{
+    position: relative;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 30px;
+    font-size: 12px;
+    gap: 10px;
+    font-weight: 400;
+    position: relative;
+}
+
+.middle-one img{
+    position: relative;
+}
+
+.bottom{
+    margin-left: 40px;
+}
+
+.bottom button{
+    padding: 10px 90px;
+    border-radius: 20px;
+    border: 1px solid #2b2a2a;
+    background-color: #00a2dd;
+}
+
+.phone-1:hover{
+    background-color: #00a2dd;
+    color: #faf5f5;
+    align-self: flex-start;
+    box-shadow: rgba(223, 222, 222, 0.25) 0px 54px 55px, rgba(207, 204, 204, 0.12) 0px -12px 30px, rgba(219, 215, 215, 0.12) 0px 4px 6px, rgba(245, 240, 240, 0.17) 0px 12px 13px, rgba(245, 240, 240, 0.09) 0px -3px 5px;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4,0,0.2,1);
+    transition-duration: 150ms;
+    transform: translateY(1.5rem);
+}
+.phone-1:nth-child(2){
+    background-color: #00a2dd;
+}
+
+.phone-1:nth-child(2):hover{
+    background-color: #0D0D0D;
+    transform: translateY(2.5rem);
+    transform-origin: top;
+}
+
+.bottom button:hover{
+    background-color: #fff;
+}
+
+hr{
+    position: relative;
+    width: 250px;
+    left: 20px;
 }
