@@ -1,14 +1,15 @@
 *{
     padding: 0;
     margin: 0;
+    outline: 0;
+    box-sizing: border-box;
 }
 
 body{
+    /*background-color: #111010;*/
     height: 100vh;
     width: 100%;
-    font-size:75%;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 header{
@@ -516,3 +517,181 @@ hr{
     width: 250px;
     left: 20px;
 }
+
+/*Review*/
+
+.review{
+    background-color: #fff;
+    padding: 100px 0 50px 0 ;
+}
+
+.customers{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.customers p:first-child{
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.customers p:last-child{
+    font-size: 24px;
+    color: #898888;
+}
+
+/*Comments*/
+.comment{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 100px;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 100px;
+}
+
+.comment::-webkit-scrollbar{
+    height: 9px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:linear-gradient(transparent, #9424f0);
+}
+
+.commentbox{
+    border-radius: 30px;
+    padding: 40px 35px 45px 30px;
+    border: 2px solid #b9b8b8;
+}
+
+.commentbox:hover{
+    background-color: #111010;
+    color: white;
+}
+
+.commentbox img{
+    width: 30px;
+}
+
+.commentname{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.designation{
+    font-size: 20px;
+}
+
+.commentcontent{
+    font-size: 30px;
+    margin: 28px 0;
+}
+
+.stars{
+    display: flex;
+    gap: 12px;
+}
+
+/*footer section*/
+.footer{
+    color: #fff;
+    text-align: center;
+}
+
+.footerpara1{
+    font-size: 50px;
+    font-weight: 500;
+    margin: 100px 0;
+}
+
+.signup{
+    align-items: center;
+    background-color: #292828;
+    border-radius: 30px;
+    padding: 30px 0;
+    width: 90%;
+    margin: 30px auto;
+}
+
+input{
+    background-color: #3e3d3d;
+    border: none;
+    width: 80%;
+    margin: 20px auto;
+    height: 70px;
+    border-radius: 40px;
+}
+
+input:hover{
+    background-color: #cee6fc;
+}
+
+input::placeholder{
+    color: #908f8f;
+    font-size: 18px;
+    padding-left: 22px;
+}
+
+.signup button{
+    width: 40%;
+    height: 70px;
+    border: none;
+    border-radius: 40px;
+    background-color: #0c8bfd;
+    color: #c8e5ff;
+    font-size: 18px;
+}
+
+.signup button:hover{
+    background-color: #48dbee;
+}
+
+.footerhr{
+    width: 80%;
+    height: 2px;
+    background-color:#535252;
+    margin: auto;
+}
+
+.footerdetails{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    color:   #abaaaa;
+    justify-content: space-evenly;
+    text-align: left;
+    margin: 70px 0;
+}
+
+.footerdetails p{
+    font-size: 18px;
+    color: #f3f3f3;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.footerdetails p:hover{
+    color: #48dbee;
+}
+
+.footerdetails li{
+    line-height: 2.2;
+    font-size: 17px;
+    font-weight: 500;
+    list-style-type: none;
+}
+
+.footerdetails li:hover{
+    color: #0c8bfd;
+
+}
+
+.footerimg{
+    margin: 40px 0 80px 200px;
+    text-align: left;
+}
+
