@@ -1,5 +1,5 @@
 # Project 02 (Medical Services Website)
-[Demo]([https://651281630598c71ec7292fe3--eloquent-smakager-3f4344.netlify.app/])
+[Demo](https://651281630598c71ec7292fe3--eloquent-smakager-3f4344.netlify.app/)
 - Basic Landing page design using HTML5 and CSS3
 ## Technology, Tools, Frameworks
 Tech: `HTML` `CSS` <br>
