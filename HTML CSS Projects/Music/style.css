@@ -4,10 +4,13 @@
     box-sizing: border-box;
     background: #f9f5ed;
 }
-
+body{
+    font-family: "Segoe UI", sans-serif;
+}
 nav{
     padding: 20px 10%;
     height: 15vh;
+
 }
 
 nav ul{
@@ -16,6 +19,7 @@ nav ul{
 }
 
 nav ul li{
+    cursor: pointer;
     list-style: none;
     margin-right: 5%;
     font-weight: 500;
