@@ -19,13 +19,13 @@ nav{
     display: flex;
     color: #9a9999;
     justify-content: space-between;
-    margin: 50px;
+    margin: 30px;
 }
 
 nav ul{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
 }
 
 nav ul li{
@@ -34,7 +34,7 @@ nav ul li{
 }
 
 nav>ul li:hover{
-    color: rgb(49,49,230);
+    color: #0c8bfd;
 }
 
 .login-button:hover{
@@ -57,7 +57,7 @@ main{
     color: #deefff;
     flex-direction: row;
     gap: 80px;
-
+padding: 60px;
     align-items: center;
     justify-content: space-between;
 }
