@@ -26,6 +26,7 @@ nav ul li{
 }
 
 main{
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,10 +34,11 @@ main{
 }
 .left-main{
     width: 40%;
+
 }
 
 .left-main h1{
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .left-main p{
@@ -54,4 +56,10 @@ main{
 
 .right-main{
     width: 60%;
+
+
+}
+
+.right-main img{
+    height: 250px;
 }
