@@ -23,10 +23,17 @@ nav{
 }
 
 nav ul{
-    display: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
-nav>ul:hover{
+nav ul li{
+    list-style: none;
+    cursor: pointer;
+}
+
+nav>ul li:hover{
     color: rgb(49,49,230);
 }
 
@@ -40,4 +47,83 @@ nav button {
 
 .nav-menu{
     font-size: 2.4rem;
+}
+
+/*Main section*/
+main{
+
+    width: 100%;
+    display: flex;
+    color: #deefff;
+    flex-direction: row;
+    gap: 80px;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-first-para{
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 1.4;
+
+}
+
+.main-first-para span{
+    color: #0c8bfd;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.main-second-para{
+    color: #8b8a8a;
+    margin: 40px 0 60px 0;
+    font-size: 22px;
+}
+
+.right img{
+    position: relative;
+    right: 30px;
+}
+
+.main-btn{
+    padding: 10px 30px;
+    font-size: 20px;
+    color: rgba(255,255,255, 0.741);
+    border: none;
+    font-weight: 600;
+    border-radius: 30px;
+    display: flex;
+    gap: 25px;
+}
+
+.main-btn-1{
+    background-color: #0c8bfd;
+
+}
+
+.main-btn-1:hover{
+    background-color: #dbe3e9;
+    color: #000;
+}
+
+.main-btn-2{
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    width: 210px;
+}
+
+.main-btn-2:hover{
+    background-color: #0c8bfd;
+    color: rgb(248, 242, 242);
+}
+.left{
+    width: 60%;
+    padding-left: 30px;
+}
+
+
+
+.right{
+
 }
