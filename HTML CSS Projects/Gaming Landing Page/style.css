@@ -8,7 +8,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.container{
+.bg-container{
     background: url('Assets/Photos/futuristic-bg.png') no-repeat center top;
 }
 
@@ -59,7 +59,7 @@ nav{
 /*------------------------------------*/
 main{
     color: #faf5f5;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -105,13 +105,15 @@ main{
     margin-left: 20px;
 }
 
+/*Right*/
 .right{
     display: flex;
     border: 1px solid green;
     width: 40%;
-    justify-content: center;
+    /*justify-content: center;*/
     flex-direction: column;
     align-items: center;
+    margin-top: 150px;
 }
 
 .left-arrow-img{
@@ -120,8 +122,78 @@ main{
 
 .right-arrow-img{
     padding-left: 40px;
+    align-self: flex-end;
 }
 
 .play-arrow{
     display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.play-button-img{
+    margin-bottom: 50px;
+}
+
+/*Popular games*/
+
+.container{
+    /*height: 60vh;*/
+    padding-top: 50px;
+    text-align: center;
+}
+
+.container h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.cards-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 40px;
+}
+.card{
+    border: 1px solid red;
+    text-align: left;
+}
+.card-body{
+    height: 250px;
+    width: 220px;
+    overflow: hidden;
+    background-size: cover;
+    background: url("Assets/Photos/image 2.png") no-repeat center;
+}
+.card-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: #3e3d3d;
+
+
+}
+
+.card-text {
+
+}
+.card-text h1{
+    font-size: 18px;
+}
+
+.card-text p{
+    font-size: 14px;
+    color: #706f6f;
+}
+
+.card-btn{
+    background-color:#F4694C ;
+    padding: 10px;
+
+    color: #faf5f5;
+}
+
+.card-body img{
+    height: 70%;
+
 }
