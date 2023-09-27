@@ -21,7 +21,10 @@ console.log(sum(1,2));
 
 // solution using reduce method
 
-function sum_two(...args){
-    return args.reduce((a,b)=>a+b);
+function sum_two(...items){
+    if(items.length === 1 && Array.isArray(items[0]))
+        items = items[0];
+    return items.reduce((a,b)=>a+b);
 }
 console.log(sum_two(numbers))
+console.log(sum(1,5,7,2));
