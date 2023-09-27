@@ -8,22 +8,31 @@
 
 ![IMG4](https://img.shields.io/badge/OUTPUTS-ACHIEVED-green)
 
-![IMG5](img/1.png)
+[//]: # ()
+[//]: # (![IMG5]&#40;img/1.png&#41;)
 
-![img6](img/2.png)
+[//]: # ()
+[//]: # (![img6]&#40;img/2.png&#41;)
 
-![img7](img/3.png)
+[//]: # ()
+[//]: # (![img7]&#40;img/3.png&#41;)
 
-![img8](img/4.png)
+[//]: # ()
+[//]: # (![img8]&#40;img/4.png&#41;)
 
-![img9](img/5.png)
+[//]: # ()
+[//]: # (![img9]&#40;img/5.png&#41;)
 
-![img10](img/6.png)
+[//]: # ()
+[//]: # (![img10]&#40;img/6.png&#41;)
 
-![img11](img/7.png)
+[//]: # ()
+[//]: # (![img11]&#40;img/7.png&#41;)
 
-![img12](img/8.png)
+[//]: # ()
+[//]: # (![img12]&#40;img/8.png&#41;)
 
-![img13](img/9.png)
+[//]: # ()
+[//]: # (![img13]&#40;img/9.png&#41;)
 
 ![img14](https://img.shields.io/badge/DONE%20BY-KAPIL%20SARKAR-blue)
