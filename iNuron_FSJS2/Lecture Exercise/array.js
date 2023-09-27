@@ -60,11 +60,7 @@
 
 // fill -----------------------------------------------------------------
 
-// let arr4 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-// console.log(arr4);
-// arr4.fill('Anurag', 2, 7);   // index 2 se 6 thk Anurag print krr di
-// console.log("after the applying fill method in array arr4");
-// console.log(arr4);
+
 
 
 
