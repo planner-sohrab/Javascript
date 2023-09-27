@@ -58,5 +58,70 @@ nav{
         /*Hero section start*/
 /*------------------------------------*/
 main{
+    color: #faf5f5;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+}
+
+/*main left section*/
+
+.left{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    width: 60%;
+}
+
+.left h1{
+    font-size: 60px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.left p{
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.left-btn{
+    padding: 20px 40px;
+    border: none;
+
+}
+.get-started-btn{
+    background-color:#F4694C ;
+    color: #faf5f5;
+}
+
+.learn-more-btn{
+    background-color: transparent;
+    color: #faf5f5;
+    border: 2px solid #faf5f5;
+    margin-left: 20px;
+}
+
+.right{
+    display: flex;
+    border: 1px solid green;
+    width: 40%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-arrow-img{
+    padding-right: 30px;
+}
+
+.right-arrow-img{
+    padding-left: 40px;
+}
+
+.play-arrow{
+    display: flex;
 }
