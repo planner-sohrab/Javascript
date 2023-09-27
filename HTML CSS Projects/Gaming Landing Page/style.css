@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    background: url('Assets/Photos/futuristic-bg.png') no-repeat center top;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 50px;
+
+}
+
+.menu-items ul{
+    display: inline-flex;
+    gap: 30px;
+}
+
+.menu-items ul li{
+    list-style: none;
+}
+
+.menu-items ul li a:hover{
+    color: #00a2dd;
+}
+
+.menu-items ul li a{
+    text-decoration: none;
+    color: #faf5f5;
+}
+
+.sign-btn{
+    padding: 10px 20px;
+    border: none;
+}
+
+.sign-in{
+    background: transparent;
+    color: #faf5f5;
+}
+
+.sign-up{
+    background-color: #F4694C;
+}
+
+/*Navigation bar complete*/
+
+/*----------------------------------*/
+        /*Hero section start*/
+/*------------------------------------*/
+main{
+    height: 100vh;
+}
