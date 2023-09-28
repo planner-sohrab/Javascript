@@ -16,7 +16,7 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px 50px;
+    padding: 40px 50px;
 
 }
 
@@ -82,13 +82,14 @@ main{
     font-size: 60px;
     font-weight: 600;
     padding-bottom: 20px;
-    line-height: 3.5rem;
+    line-height: 4.5rem;
 }
 
 .left p{
     font-size: 15px;
     font-weight: 300;
     padding-bottom: 20px;
+    line-height: 1.5rem;
 }
 
 .hero-btn{
@@ -97,6 +98,7 @@ main{
 .left-btn{
     padding: 20px 40px;
     border: none;
+    font-size: 20px;
 
 }
 .get-started-btn{
@@ -211,3 +213,66 @@ main{
     color: #faf5f5;
 }
 
+/*Highlighted game section starts*/
+
+.highlighted-game{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.highlighted-left{
+    width: 50%;
+
+}
+
+
+.highlighted-right {
+    width: 50%;
+
+}
+.game-img{
+    width: 85%;
+    padding-left: 100px;
+}
+
+.highlighted-game-header{
+    font-size:2.3rem;
+
+}
+#last-header{
+    margin-bottom: 30px;
+}
+
+.highlighted-game-text{
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    color: darkgray;
+}
+
+#last-text{
+    margin-bottom: 50px;
+}
+
+.highlighted-right-btn{
+    display: flex;
+    gap: 20px;
+}
+
+.btn{
+    padding: 20px 30px;
+    font-size: 20px;
+    border: none;
+}
+.explore-btn{
+    background-color: #F4694C;
+    color: white;
+
+}
+.learn-btn{
+    background: transparent;
+    border: 2px solid #F4694C;
+}
+/*Highlighted game section ends*/
