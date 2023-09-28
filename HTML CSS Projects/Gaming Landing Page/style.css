@@ -358,3 +358,57 @@ main{
 
 
 /*Recommended Game section ends*/
+
+/*most played games section starts*/
+
+.most-played{
+    background-color: black;
+}
+.mp-header{
+    text-align: center;
+    color: white;
+}
+
+.mp-header-text{
+    font-size: 40px;
+    padding: 50px;
+}
+
+.games{
+    display: flex;
+    justify-content: space-around;
+}
+.mp-img{
+    display: block;
+    height: 35rem;
+}
+
+.game-2{
+    border: 1px solid greenyellow;
+
+
+}
+.game-images{
+    display: flex;
+}
+
+.game-2-text{
+    color: white;
+}
+.img-2{
+    position: relative;
+    top:100px;
+    display: block;
+    height: 22rem;
+    padding: 10px;
+}
+
+.img-3{
+    position: relative;
+    top: 200px;
+    display: block;
+    height: 18rem;
+    padding: 10px;
+
+}
+/*most played games section ends*/
