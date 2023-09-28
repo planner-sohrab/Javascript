@@ -363,6 +363,7 @@ main{
 
 .most-played{
     background-color: black;
+    padding-bottom: 100px;
 }
 .mp-header{
     text-align: center;
@@ -372,6 +373,7 @@ main{
 .mp-header-text{
     font-size: 40px;
     padding: 50px;
+    line-height: 3.5rem;
 }
 
 .games{
@@ -384,20 +386,21 @@ main{
 }
 
 .game-2{
-    border: 1px solid greenyellow;
 
-
+    padding: 20px;
 }
 .game-images{
     display: flex;
 }
 
+
 .game-2-text{
-    color: white;
+    color: #696767;
+    line-height: 2rem;
 }
 .img-2{
     position: relative;
-    top:100px;
+    top:50px;
     display: block;
     height: 22rem;
     padding: 10px;
@@ -405,7 +408,7 @@ main{
 
 .img-3{
     position: relative;
-    top: 200px;
+    top: 150px;
     display: block;
     height: 18rem;
     padding: 10px;
