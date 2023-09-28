@@ -276,3 +276,60 @@ main{
     border: 2px solid #F4694C;
 }
 /*Highlighted game section ends*/
+
+
+/*Recommended Game section starts*/
+
+.recommendation-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.previous-btn{
+    background-color: #f6d8d2;
+}
+
+.next-btn{
+    background-color: #F4694C;
+}
+
+.rc-header{
+    font-size: 40px;
+}
+
+/*recommended game cards*/
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.rc-card{
+    display: flex;
+    padding: 20px;
+
+
+}
+
+.rc-card-img{
+    width: 80%;
+}
+
+.card-body-header{
+    margin-bottom: 20px;
+}
+.card-body-header2{
+    margin-bottom: 20px;
+}
+.card-body-text{
+    margin-bottom: 20px;
+}
+
+.download-btn{
+    background-color: #F4694C;
+    color: #fff;
+}
+
+
+/*Recommended Game section ends*/
