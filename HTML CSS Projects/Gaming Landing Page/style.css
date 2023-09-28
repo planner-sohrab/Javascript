@@ -279,19 +279,28 @@ main{
 
 
 /*Recommended Game section starts*/
-
+.recommendation{
+    margin-left: 80px;
+    margin-right: 80px;
+}
 .recommendation-header{
     display: flex;
     justify-content: space-between;
     padding: 50px;
 }
 
+.rc-btn{
+    padding: 20px 20px;
+    border: none;
+}
 .previous-btn{
     background-color: #f6d8d2;
+
 }
 
 .next-btn{
     background-color: #F4694C;
+
 }
 
 .rc-header{
@@ -301,19 +310,31 @@ main{
 /*recommended game cards*/
 .row{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 40px;
 }
 
 .rc-card{
     display: flex;
-    padding: 20px;
+    padding: 20px 20px;
+    justify-content: space-evenly;
 
 
 }
 
 .rc-card-img{
-    width: 80%;
+    display: block;
+    height: 20rem;
+    object-fit: cover;
+    width: 100%;
+
+}
+
+
+.rc-card-body{
+    padding-left: 40px;
+    padding-top: 30px;
+
 }
 
 .card-body-header{
@@ -321,9 +342,13 @@ main{
 }
 .card-body-header2{
     margin-bottom: 20px;
+    font-size: 16px;
+    color: #f4694c;
 }
 .card-body-text{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    color: #868585;
+    line-height: 1.4rem;
 }
 
 .download-btn{
