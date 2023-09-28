@@ -415,3 +415,73 @@ main{
 
 }
 /*most played games section ends*/
+
+
+/*Experience starts*/
+.experience{
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-bottom: 80px;
+    /*background: url('Assets/Photos/Rectangle 606.png') no-repeat center top;*/
+
+}
+
+.experience-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.experience img{
+    width: 99%;
+}
+.exp-btn{
+    padding: 20px 30px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.experience-text h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.experience-text p{
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+}
+/*Experience ends*/
+
+
+
+/*footer starts*/
+
+footer{
+    background-color: black;
+    padding: 50px;
+    display: flex;
+    color: #807e7e;
+    justify-content: space-evenly;
+}
+
+ul li{
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+ul li:first-child{
+    font-weight: 500;
+    color: white;
+}
+
+.logo img{
+    margin-bottom: 10px;
+}
+
+.logo p{
+    margin-bottom: 10px;
+}
+
+/*footer ends*/
