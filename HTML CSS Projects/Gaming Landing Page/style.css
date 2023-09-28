@@ -150,7 +150,7 @@ main{
 
 .cards-container{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     padding: 40px;
 }
 .card{
@@ -158,11 +158,11 @@ main{
     text-align: left;
 }
 .card-body{
-    height: 250px;
-    width: 220px;
+    height: 280px;
+    width: 100%;
     overflow: hidden;
-    background-size: cover;
-    background: url("Assets/Photos/image 2.png") no-repeat center;
+    object-fit: cover;
+
 }
 .card-footer{
     display: flex;
