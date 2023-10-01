@@ -16,7 +16,7 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 30px 50px;
+    padding: 40px 50px;
 
 }
 
@@ -72,25 +72,33 @@ main{
 .left{
     display: flex;
     flex-direction: column;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     width: 60%;
+    text-align: left;
+    gap: 20px;
 }
 
 .left h1{
     font-size: 60px;
     font-weight: 600;
     padding-bottom: 20px;
+    line-height: 4.5rem;
 }
 
 .left p{
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 300;
     padding-bottom: 20px;
+    line-height: 1.5rem;
 }
 
+.hero-btn{
+    margin-top: 40px;
+}
 .left-btn{
     padding: 20px 40px;
     border: none;
+    font-size: 20px;
 
 }
 .get-started-btn{
@@ -108,7 +116,7 @@ main{
 /*Right*/
 .right{
     display: flex;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     width: 40%;
     /*justify-content: center;*/
     flex-direction: column;
@@ -139,61 +147,341 @@ main{
 
 .container{
     /*height: 60vh;*/
-    padding-top: 50px;
+    padding-top: 80px;
     text-align: center;
+    padding-bottom: 50px;
 }
 
-.container h1{
+.hero-txt{
     font-weight: 700;
     font-size: 50px;
+    margin-bottom: 40px;
 }
 
 .cards-container{
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    padding: 40px;
+    /*width: 114rem;*/
+    grid-gap: 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    /*align-items: start;*/
+    padding: 20px;
 }
 .card{
-    border: 1px solid red;
     text-align: left;
-}
-.card-body{
-    height: 250px;
-    width: 220px;
+    border-radius: 0.4rem;
     overflow: hidden;
-    background-size: cover;
-    background: url("Assets/Photos/image 2.png") no-repeat center;
+    box-shadow: 0 3rem 6rem rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: 0.25s;
 }
+
+.card-img{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 18rem;
+}
+
 .card-footer{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 50px;
     background-color: #3e3d3d;
-
-
 }
 
 .card-text {
-
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .card-text h1{
     font-size: 18px;
+    color: white;
 }
 
 .card-text p{
     font-size: 14px;
-    color: #706f6f;
+    color: darkgray;
 }
 
 .card-btn{
     background-color:#F4694C ;
     padding: 10px;
-
     color: #faf5f5;
 }
 
-.card-body img{
-    height: 70%;
+/*Highlighted game section starts*/
+
+.highlighted-game{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.highlighted-left{
+    width: 50%;
 
 }
+
+
+.highlighted-right {
+    width: 50%;
+
+}
+.game-img{
+    width: 85%;
+    padding-left: 100px;
+}
+
+.highlighted-game-header{
+    font-size:2.3rem;
+
+}
+#last-header{
+    margin-bottom: 30px;
+}
+
+.highlighted-game-text{
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    color: darkgray;
+}
+
+#last-text{
+    margin-bottom: 50px;
+}
+
+.highlighted-right-btn{
+    display: flex;
+    gap: 20px;
+}
+
+.btn{
+    padding: 20px 30px;
+    font-size: 20px;
+    border: none;
+}
+.explore-btn{
+    background-color: #F4694C;
+    color: white;
+
+}
+.learn-btn{
+    background: transparent;
+    border: 2px solid #F4694C;
+}
+/*Highlighted game section ends*/
+
+
+/*Recommended Game section starts*/
+.recommendation{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.recommendation-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.rc-btn{
+    padding: 20px 20px;
+    border: none;
+}
+.previous-btn{
+    background-color: #f6d8d2;
+
+}
+
+.next-btn{
+    background-color: #F4694C;
+
+}
+
+.rc-header{
+    font-size: 40px;
+}
+
+/*recommended game cards*/
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.rc-card{
+    display: flex;
+    padding: 20px 20px;
+    justify-content: space-evenly;
+
+
+}
+
+.rc-card-img{
+    display: block;
+    height: 20rem;
+    object-fit: cover;
+    width: 100%;
+
+}
+
+
+.rc-card-body{
+    padding-left: 40px;
+    padding-top: 30px;
+
+}
+
+.card-body-header{
+    margin-bottom: 20px;
+}
+.card-body-header2{
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #f4694c;
+}
+.card-body-text{
+    margin-bottom: 40px;
+    color: #868585;
+    line-height: 1.4rem;
+}
+
+.download-btn{
+    background-color: #F4694C;
+    color: #fff;
+}
+
+
+/*Recommended Game section ends*/
+
+/*most played games section starts*/
+
+.most-played{
+    background-color: black;
+    padding-bottom: 100px;
+}
+.mp-header{
+    text-align: center;
+    color: white;
+}
+
+.mp-header-text{
+    font-size: 40px;
+    padding: 50px;
+    line-height: 3.5rem;
+}
+
+.games{
+    display: flex;
+    justify-content: space-around;
+}
+.mp-img{
+    display: block;
+    height: 35rem;
+}
+
+.game-2{
+
+    padding: 20px;
+}
+.game-images{
+    display: flex;
+}
+
+
+.game-2-text{
+    color: #696767;
+    line-height: 2rem;
+}
+.img-2{
+    position: relative;
+    top:50px;
+    display: block;
+    height: 22rem;
+    padding: 10px;
+}
+
+.img-3{
+    position: relative;
+    top: 150px;
+    display: block;
+    height: 18rem;
+    padding: 10px;
+
+}
+/*most played games section ends*/
+
+
+/*Experience starts*/
+.experience{
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-bottom: 80px;
+    /*background: url('Assets/Photos/Rectangle 606.png') no-repeat center top;*/
+
+}
+
+.experience-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.experience img{
+    width: 99%;
+}
+.exp-btn{
+    padding: 20px 30px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.experience-text h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.experience-text p{
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+}
+/*Experience ends*/
+
+
+
+/*footer starts*/
+
+footer{
+    background-color: black;
+    padding: 50px;
+    display: flex;
+    color: #807e7e;
+    justify-content: space-evenly;
+}
+
+ul li{
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+ul li:first-child{
+    font-weight: 500;
+    color: white;
+}
+
+.logo img{
+    margin-bottom: 10px;
+}
+
+.logo p{
+    margin-bottom: 10px;
+}
+
+/*footer ends*/
