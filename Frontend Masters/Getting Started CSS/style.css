@@ -95,6 +95,19 @@ nav [class*="fa-"]:hover{
     font-family: var(--mono);
 }
 
+@media(min-width: 850px){
+    nav{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    nav li:first-child{
+        flex-basis: auto;
+        text-align: left;
+        margin-right: auto;
+    }
+}
+
 /*intro styles*/
 #intro{
     padding: 4rem 1rem 10rem 1rem;
