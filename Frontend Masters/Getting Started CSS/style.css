@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oxygen&family=Oxygen+Mono&display=swap');
+
+:root{
+    --black: #171321;
+    --dkblue: #0d314b;
+    --plum: #4b0d49;
+    --hotmag: #ff17e4;
+    --magenta: #e310cb;
+    --aqua: #86fbfb;
+    --white: #f7f8fa;
+    --font-size: 1.3rem;
+    --mono: "Oxygen mono", monospace;
+    --sans: Oxygen, sans-serif;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin:0;
+    font-family: var(--sans);
+    font-size: var(--font-size);
+}
+
+nav{
+    background-color: var(--black);
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+nav li:first-child{
+    flex-basis: 100%;
+    text-align: center;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: var(--white);
+}
+
+nav ul a:hover{
+    color: var(--magenta);
+}
+
+
+#intro{
+    background-color: var(--black);
+    color: var(--white);
+}
