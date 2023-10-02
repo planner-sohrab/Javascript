@@ -155,8 +155,10 @@ nav [class*="fa-"]:hover{
 
     background-color: var(--plum);
 }
-
-
+/*/section-dkblue*/
+.section-dkblue{
+    background-color: var(--dkblue);
+}
 /*gradient*/
 .gradient{
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,23,228,1) 0%, rgba(134,251,251,1) 100%);
