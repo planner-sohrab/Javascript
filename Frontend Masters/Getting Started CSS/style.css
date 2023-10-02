@@ -136,9 +136,40 @@ nav [class*="fa-"]:hover{
     font-size: 4rem;
 }
 
+
+
+
+/*contact section*/
+#contact{
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+#contact p:last-child{
+    margin-top: 3rem;
+}
+
+.contact-plum{
+
+    background-color: var(--plum);
+}
+
+
+/*gradient*/
+.gradient{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,23,228,1) 0%, rgba(134,251,251,1) 100%);
+    height: 2px;
+}
+
+
+
+
 /*footer section*/
 footer{
     text-align: center;
+    margin-top: 2rem;
 }
 
 footer ul {
