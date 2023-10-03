@@ -9,4 +9,4 @@ Frameworks: None
 
 ## 📷 Screenshot
 ### Desktop View
-![Desktop](./Gaming Landing Page.png)
+![Desktop](Gaming%20Landing%20Page.png)
