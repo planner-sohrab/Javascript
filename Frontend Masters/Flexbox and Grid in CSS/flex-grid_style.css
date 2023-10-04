@@ -49,13 +49,16 @@ figure > div {
 .four {
     background-color: #005f73;
 }
-
-.row{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    gap: 1%;
+@media (min-width:550px) {
+    .row{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        gap: 1%;
+    }
 }
+
+@media (min-width: 800px){
 
 figure{
     flex-basis: 22%;
@@ -81,4 +84,5 @@ figure{
 }
 .order-3{
     order: 3;
+}
 }
