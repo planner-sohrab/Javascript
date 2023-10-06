@@ -1,13 +1,9 @@
 **PROJECT 01**
 
-THIS IS FIRST PROJECT ON HTML CSS
+This is a simple landing page of an imaginary company
 
 TOOLS USED : `HTML` ,`CSS`
 
 **OUTPUT :**
 
 ![IMG1](output.png)
-
-THIS WHOLE PAGE WAS CREATED BY WITHOUT CHANGING THE HTML FILE.
-
-![IMG2](https://img.shields.io/badge/BY-KAPIL%20SARKAR-yellow)
