@@ -1,0 +1,59 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin:0;
+    color: #0D0D0D;
+    font-family: "Orbitron", sans-serif;
+}
+
+h1,
+h2,
+h3{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 4rem;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10%;
+    font-size: 1.2rem;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: #868585;
+}
+
+nav a:hover{
+    color: black;
+}
+
+.btn{
+    padding: 1rem 2rem;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    background-color: #5855B3;
+    align-self: flex-end;
+}
+
+/*Hero section*/
+.hero{
+    display: flex;
+}
