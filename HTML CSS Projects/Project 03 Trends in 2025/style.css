@@ -23,12 +23,15 @@ h3{
     margin: 0;
 }
 
+
+
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 0 auto;
-    padding: 1rem 4rem;
+
+    padding: 2rem 4rem;
+    margin-bottom: 40px;
 }
 
 nav img{
@@ -39,7 +42,7 @@ nav ul{
     display: flex;
     list-style-type: none;
     /*flex-flow: row wrap;*/
-    gap: 1rem;
+    gap: 10%;
 }
 
 nav a{
@@ -47,17 +50,36 @@ nav a{
     display: block;
     color: #0D0D0D;
     font-family: "Orbitron", sans-serif;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 1.2rem;
 }
 
 nav a:hover{
-    color: darkred;
+
+    font-weight: 700;
+    font-size: 1.5rem;
+    border-bottom: 1px solid black;
+    border-bottom-width: thick;
+
 }
 
-nav .home{
-    font-size: 1.2rem;
-    text-decoration: underline;
+
+
+.nav-search {
+    display: flex;
+    justify-content: center;
+
 }
+.nav-search input{
+
+    text-align: center;
+    font-size: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 60%;
+
+}
+
 
 /*Hero section starts*/
 .hero{
@@ -65,19 +87,110 @@ nav .home{
     align-items: center;
     justify-content: space-between;
     padding: 2rem 4rem;
+
 }
 
 .hero-left{
     position:relative;
+    width: 40%;
 
 }
 
 .hero-left .square{
-    position: relative;
-    top: -320px;
-    left: 200px;
+    position: absolute;
+    bottom: -60px;
+    left: 160px;
+    z-index: -1;
 }
 
 .hero-left .photo{
-    height: 400px;
+    height: 500px;
+}
+
+.hero-left .square{
+    height: 300px;
+}
+
+.hero-right{
+    width: 60%;
+    position: relative;
+}
+
+.globe-star{
+    padding-bottom: 100px;
+}
+
+.globe-star img{
+    height: 60px;
+}
+
+.globe-star .star{
+    position: absolute;
+    top: 30px;
+    right: 80px;
+}
+.globe-star .globe{
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+.globe-star .star2{
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+}
+.text h1{
+    font-size: 60px;
+}
+
+.text p{
+    font-family: sans-serif;
+    color: #7a7979;
+    line-height: 1.4rem;
+    margin-bottom: 50px;
+    font-size: 1.2rem;
+}
+
+.email{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.email input{
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 0.5rem 0;
+}
+
+.email .join{
+    font-family: "Orbitron", sans-serif;
+    font-size: 20px;
+    padding: 0.5rem 0.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: #fff;
+}
+
+.contact{
+    text-align: center;
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+.contact p{
+    font-size: 1.5rem;
+}
+
+.social-media{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
 }

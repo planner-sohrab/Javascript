@@ -1,0 +1,97 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin:0;
+    color: #0D0D0D;
+    font-family: "Orbitron", sans-serif;
+
+}
+
+h1,
+h2,
+h3{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 4rem;
+
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10%;
+    font-size: 1.2rem;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: #868585;
+}
+
+nav a:hover{
+    color: black;
+}
+
+.btn{
+    padding: 1rem 2rem;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    background-color: #5855B3;
+
+}
+
+/*Hero section*/
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+.hero-left{
+    margin: 10rem 4rem;
+}
+.hero-left h1{
+    font-size: 60px;
+}
+
+.hero-left span{
+    color: #5855B3;
+}
+
+.hero-left p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 1.5rem;
+    color: #8a8989;
+}
+
+.service-btn{
+    margin-top: 40px;
+}
+
+.hero-right{
+    position: relative;
+}
+
+.hero-right img{
+    position: absolute;
+    right: 0;
+    top: -300px;
+
+}
