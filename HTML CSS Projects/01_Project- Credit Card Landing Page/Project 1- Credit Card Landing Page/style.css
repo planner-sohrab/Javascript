@@ -28,7 +28,6 @@ nav ul{
     display: flex;
     flex-flow: row wrap;
     flex-basis: 40%;
-
     gap: 10%;
 }
 
@@ -51,4 +50,9 @@ select{
     padding: 0.5rem 0.5rem;
     border: none;
     margin-left: 10px;
+}
+
+/*main section*/
+main{
+    background: url("Assets/Photos/backCards.png") no-repeat;
 }
