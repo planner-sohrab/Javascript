@@ -13,7 +13,7 @@ body{
     margin:0;
     color: #fff;
     background-color: #2b2923;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", "Roboto", sans-serif;
 }
 
 
@@ -56,18 +56,23 @@ nav ul{
 .text{
     display: flex;
     justify-content: space-between;
-    margin: 2rem 9rem;
+    margin: 5rem 5rem;
     align-items: center;
     }
 
 .text h1{
-    font-size: 50px;
-    margin-right: 40px;
+    font-size: 60px;
+    width: 55%;
+    margin: 0 4rem;
+
 }
 
-.hero p{
+.text p{
+    width: 45%;
+    text-align: justify;
+    margin-right: 4rem;
     line-height: 1.5rem;
-    letter-spacing: 5px;
+
     font-size: 0.8rem;
 }
 
