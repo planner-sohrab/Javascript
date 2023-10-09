@@ -54,5 +54,31 @@ select{
 
 /*main section*/
 main{
-    background: url("Assets/Photos/backCards.png") no-repeat;
+    display: flex;
+    /*background: url("Assets/Photos/backCards.png") no-repeat;*/
+    /*background: url("Assets/Photos/frontCards.png") no-repeat;*/
+}
+.left{
+    margin: 4rem 4rem;
+    flex-basis: 40%;
+}
+
+.background-img{
+    flex-basis: 60%;
+    position: relative;
+}
+
+.background-img img{
+    height: 400px;
+
+}
+
+.frontCards{
+    position: absolute;
+    left: -100px;
+}
+
+.backCards{
+    position: absolute;
+    left: -200px;
 }
