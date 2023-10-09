@@ -53,10 +53,8 @@ select{
 }
 
 /*main section*/
-main{
 
-}
-figure{
+main figure{
     position: relative;
     margin: 4rem 4rem;
 }
@@ -84,12 +82,12 @@ span{
 }
 
 
-h1{
+main h1{
     font-size: 85px;
     font-weight: 400;
 
 }
-p{
+main p{
     font-size: 0.9rem;
     font-weight: 300;
     margin-top: 35px;
@@ -103,7 +101,7 @@ p{
     display: flex;
     gap: 10px;
 }
-h2{
+main h2{
     font-size: 40px;
 
 }
@@ -111,4 +109,63 @@ h2{
 .get-started-btn{
     margin-bottom: 1rem;
     margin-top: 1rem;
+}
+
+/*multiple logos section*/
+.multiple-logos{
+    background-color: #292929;
+    display: flex;
+    gap: 8%;
+    padding: 4rem 6rem;
+}
+
+/*payment section*/
+.payment{
+    background-color: #151515;
+    margin: 4rem 4rem;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+}
+.text h1{
+    font-size: 80px;
+    flex-basis: 60%;
+    font-weight: 400;
+}
+
+.text p{
+    flex-basis: 40%;
+    padding: 12% 5%;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    position: relative;
+}
+.icons > *{
+    width: 300px;
+    height: 280px;
+    border: 1px solid white;
+    padding: 2% 0;
+    text-align: center;
+}
+
+.dollar {
+    background-color: #272727;
+}
+
+.cloud{
+    position: relative;
+    background-color: #575655;
+    bottom: 50px;
+}
+.lock{
+    background-color: #272727;
 }
