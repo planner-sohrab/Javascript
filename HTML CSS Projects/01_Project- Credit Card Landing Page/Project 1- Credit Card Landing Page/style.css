@@ -43,7 +43,7 @@ select{
     border: none;
 }
 
-.contact-btn{
+.btn{
     background: url('Assets/Icons/btn-pink-bg.svg') no-repeat;
     object-fit: fill;
     color: #fff;
@@ -77,7 +77,26 @@ figure{
 
 span{
     color: #f637ec;
+    font-weight: 600;
 }
 h1{
     font-size: 60px;
+    font-weight: 400;
+
+}
+p{
+    margin-bottom: 1.5rem;
+
+}
+.stats{
+    display: flex;
+    gap: 20px;
+}
+h2{
+    font-size: 40px;
+}
+
+.get-started-btn{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
 }
