@@ -1,3 +1,7 @@
+:root{
+    --pink: #f637ec;
+}
+
 html{
     box-sizing: border-box;
 }
@@ -118,6 +122,7 @@ main h2{
 .multiple-logos{
     background-color: #292929;
     display: flex;
+    justify-content: center;
     gap: 8%;
     padding: 4rem 6rem;
 }
@@ -176,7 +181,7 @@ main h2{
 /*card-choice section*/
 .card-choice{
     background-color: #fceffb;
-    padding: 4rem 4rem;
+    padding-top : 4rem;
     color: black;
     text-align: center;
     position: relative;
@@ -192,16 +197,105 @@ main h2{
 
 .card-choice img{
     position: relative;
-    bottom: 70px;
+    bottom: 50px;
     width: 90%;
 }
+
+/*Review section*/
 .review{
     text-align: center;
 }
 .review h1{
-
         font-size: 60px;
         flex-basis: 60%;
         font-weight: 400;
+}
+.review-cards{
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin: 4rem 15rem;
+    gap: 10%;
+}
+.card{
+    width: 550px;
+    background-color:#1E1F24;
+    text-align: left;
+    border: 1px solid white;
+    padding: 1rem 1rem;
+}
 
+.first-card{
+    background-color: #565555;
+}
+
+.scroll {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-scroll{
+    height: 20px;
+    width: 80px;
+    background-color: #f637ec;
+    border-radius: 10px;
+}
+
+.dot-scroll{
+    width: 20px;
+    height: 20px;
+    background-color: #464346;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+/*Take action section*/
+.take-action{
+    position: relative;
+    margin-top: 4rem;
+}
+
+.rectangle-left{
+    position: absolute;
+    left: 0;
+}
+
+.rectangle-right{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+.diamond-left{
+    position: absolute;
+    z-index:1;
+    right: 0;
+}
+
+.diamond-right{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+}
+.take-action-text{
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    margin-top: 4rem;
+   left: 17%;
+    border: 1px solid green;
+}
+
+.take-action-text span{
+    color: black;
+}
+.take-action-text h1{
+    font-size: 70px;
+}
+
+.get-started-btn{
+
+    font-size: 25px;
 }
