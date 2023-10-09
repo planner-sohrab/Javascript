@@ -58,17 +58,26 @@ main{
 }
 figure{
     position: relative;
+    margin: 4rem 4rem;
 }
 
 
 .frontCards{
     position: absolute;
-    left: 150px;
-    height: 350px;
+    right: 10px;
+    top: 0;
+    height: 400px;
 }
 
 .backCards{
     position: absolute;
-    left: 0;
-    height: 350px;
+    right: 100px;
+    height: 400px;
+}
+
+span{
+    color: #f637ec;
+}
+h1{
+    font-size: 60px;
 }
