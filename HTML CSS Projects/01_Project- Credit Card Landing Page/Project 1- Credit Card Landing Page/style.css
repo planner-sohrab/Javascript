@@ -53,6 +53,9 @@ select{
 }
 
 /*main section*/
+main{
+    overflow: hidden;
+}
 
 main figure{
     position: relative;
@@ -168,4 +171,28 @@ main h2{
 }
 .lock{
     background-color: #272727;
+}
+
+/*card-choice section*/
+.card-choice{
+    background-color: #fceffb;
+    padding: 4rem 4rem;
+    color: black;
+    text-align: center;
+    position: relative;
+}
+
+.card-choice h1{
+    font-size: 70px;
+}
+
+.card-choice p{
+    color: #706f6f;
+}
+
+.card-choice img{
+    position: relative;
+    bottom: 70px;
+    width: 90%;
+
 }
