@@ -256,6 +256,7 @@ main h2{
 .take-action{
     position: relative;
     margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .rectangle-left{
@@ -298,4 +299,20 @@ main h2{
 .get-started-btn{
 
     font-size: 25px;
+}
+
+footer{
+    margin-top: 45rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    flex-basis: 80%;
+    list-style-type:none;
 }
