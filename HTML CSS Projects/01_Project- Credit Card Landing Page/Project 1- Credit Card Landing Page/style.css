@@ -133,7 +133,7 @@ main h2{
     justify-content: space-between;
 }
 .text h1{
-    font-size: 80px;
+    font-size: 60px;
     flex-basis: 60%;
     font-weight: 400;
 }
@@ -194,5 +194,14 @@ main h2{
     position: relative;
     bottom: 70px;
     width: 90%;
+}
+.review{
+    text-align: center;
+}
+.review h1{
+
+        font-size: 60px;
+        flex-basis: 60%;
+        font-weight: 400;
 
 }
