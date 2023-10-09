@@ -1,0 +1,207 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin:0;
+    color: #fff;
+    background-color: #151515;
+    font-family: "Poppins", "Roboto", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 4rem;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 40%;
+    gap: 10%;
+}
+
+nav a{
+    text-decoration: none;
+    color: #faf5f5;
+    font-size: 0.8rem;
+}
+
+select{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+
+.btn{
+    background: url('Assets/Icons/btn-pink-bg.svg') no-repeat;
+    object-fit: fill;
+    color: #fff;
+    padding: 0.5rem 0.5rem;
+    border: none;
+    margin-left: 10px;
+}
+
+/*main section*/
+main{
+    overflow: hidden;
+}
+
+main figure{
+    position: relative;
+    margin: 4rem 4rem;
+}
+
+
+.frontCards{
+    position: absolute;
+    right: -300px;
+    height: 600px;
+    top: -100px;
+    /*rotate: 15deg;*/
+}
+
+.backCards{
+    position: absolute;
+    right: -100px;
+    height: 600px;
+    top: -80px;
+    /*/rotate: 15deg;*/
+}
+
+span{
+    color: #f637ec;
+    font-weight: 600;
+}
+
+
+main h1{
+    font-size: 80px;
+    font-weight: 400;
+
+}
+main p{
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-top: 35px;
+ }
+
+.divider{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.stats{
+    display: flex;
+    gap: 10px;
+}
+main h2{
+    font-size: 40px;
+
+}
+
+.get-started-btn{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+/*multiple logos section*/
+.multiple-logos{
+    background-color: #292929;
+    display: flex;
+    gap: 8%;
+    padding: 4rem 6rem;
+}
+
+/*payment section*/
+.payment{
+    background-color: #151515;
+    margin: 4rem 4rem;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+}
+.text h1{
+    font-size: 60px;
+    flex-basis: 60%;
+    font-weight: 400;
+}
+
+.text p{
+    flex-basis: 40%;
+    padding: 12% 5%;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    position: relative;
+}
+.icons > *{
+    width: 300px;
+    height: 280px;
+    border: 1px solid white;
+    padding: 2% 0;
+    text-align: center;
+}
+
+.dollar {
+    background-color: #272727;
+}
+
+.cloud{
+    position: relative;
+    background-color: #575655;
+    bottom: 50px;
+}
+.lock{
+    background-color: #272727;
+}
+
+/*card-choice section*/
+.card-choice{
+    background-color: #fceffb;
+    padding: 4rem 4rem;
+    color: black;
+    text-align: center;
+    position: relative;
+}
+
+.card-choice h1{
+    font-size: 70px;
+}
+
+.card-choice p{
+    color: #706f6f;
+}
+
+.card-choice img{
+    position: relative;
+    bottom: 70px;
+    width: 90%;
+}
+.review{
+    text-align: center;
+}
+.review h1{
+
+        font-size: 60px;
+        flex-basis: 60%;
+        font-weight: 400;
+
+}

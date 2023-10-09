@@ -1,0 +1,87 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin:0;
+    color: #fff;
+    background-color: #2b2923;
+    font-family: "Poppins", "Roboto", sans-serif;
+}
+
+
+/*navigation*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 9rem;
+    color: #858585;
+    font-size: 0.7rem;
+    /*padding: 30px 40px 0 40px;*/
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/*nav ul li{*/
+/*    display: block;*/
+/*    cursor: pointer;*/
+/*}*/
+
+.btn{
+    background-color: transparent;
+    border: 1px solid #968834;
+    border-radius: 6px;
+    color: #968834;
+    width: 120px;
+    height: 35px;
+    font-size: 0.65rem;
+    font-weight: 600;
+
+}
+
+/*Hero section*/
+.text{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 5rem;
+    align-items: center;
+    }
+
+.text h1{
+    font-size: 60px;
+    width: 55%;
+    margin: 0 4rem;
+
+}
+
+.text p{
+    width: 45%;
+    text-align: justify;
+    margin-right: 4rem;
+    line-height: 1.5rem;
+
+    font-size: 0.8rem;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    width: 1000px;
+
+}

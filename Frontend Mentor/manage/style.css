@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS Variables */
+:root {
+    /* Primary Colors */
+    --bright-red: hsl(12, 88%, 59%);
+    --dark-blue: hsl(228, 39%, 23%);
+
+    /* Neutral Colors */
+    --dark-gray-blue: hsl(227, 12%, 61%);
+    --very-dark-blue: hsl(233, 12%, 13%);
+    --very-pale-red: hsl(13, 100%, 96%);
+    --very-light-gray: hsl(0, 0%, 98%);
+}
+body {
+    background-image: url(./images/bg-tablet-pattern.svg);
+    background-size: 50%;
+}
+
+.btn{
+    width: 8rem;
+    padding: 0.8rem 0;
+    cursor: pointer;
+    background-color: var(--bright-red);
+
+    font-family: "Be Vietnam", sans-serif;
+    border: none;
+    border-radius: 1.5rem;
+    color: var(--very-light-gray);
+}
+
+nav{
+    display: flex;
+    margin: 1rem 0;
+    padding: 1rem 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-links a{
+    margin: 0 1rem;
+    text-decoration: none;
+    color: var(--dark-blue);
+    font-size: 0.9rem;
+    font-family: "Be Vietnam", sans-serif;
+}
+
