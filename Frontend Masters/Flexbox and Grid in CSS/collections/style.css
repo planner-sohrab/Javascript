@@ -114,10 +114,18 @@ figcaption a{
     border-color: var(--color8);
     color: var(--color8);
 }
+/*mission styles*/
+#mission{
+    margin-bottom: 3rem;
+}
 
-.mission p{
-    text-align: justify;
-    padding-top: 20px;
+.missiontext{
+    display: block;
+    line-height: 1.7;
+}
+.missionimg{
+    max-height: 100px;
+    display: block;
 }
 @media (min-width: 550px){
     section ul{
@@ -133,19 +141,17 @@ figcaption a{
         object-position: 0;
     }
 
-    .mission-content{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+    .missiontext{
+        display: flow-root;
+        max-width: 900px;
     }
-    .mission img{
-        height: 100%;
-        flex-basis: 10%;
+
+    .missionimg{
+        float: left;
+        shape-outside: polygon(35.84% 94.87%, 34.64% 87.05%, 51.64% 4.06%, 55.1% 2.38%);
+        max-height: 211px;
     }
-    .mission p{
-        font-size: 1rem;
-        flex-basis: 85%;
-    }
+
 
 }
 
