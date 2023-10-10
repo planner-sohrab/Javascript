@@ -160,7 +160,10 @@ main h2{
 .icons > *{
     width: 300px;
     height: 280px;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, white, #2b2a2a) 1;
     padding: 2% 0;
     text-align: center;
 }
@@ -221,7 +224,10 @@ main h2{
     width: 550px;
     background-color:#1E1F24;
     text-align: left;
-    border: 1px solid white;
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, dimgray, #2b2a2a) 1;
+    /*border: 1px solid linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);;*/
     padding: 1rem 1rem;
 }
 
