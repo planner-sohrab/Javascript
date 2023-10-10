@@ -115,6 +115,10 @@ figcaption a{
     color: var(--color8);
 }
 
+.mission p{
+    text-align: justify;
+    padding-top: 20px;
+}
 @media (min-width: 550px){
     section ul{
         display: flex;
@@ -128,6 +132,21 @@ figcaption a{
     figure img{
         object-position: 0;
     }
+
+    .mission-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .mission img{
+        height: 100%;
+        flex-basis: 10%;
+    }
+    .mission p{
+        font-size: 1rem;
+        flex-basis: 85%;
+    }
+
 }
 
 @media (min-width: 800px){
