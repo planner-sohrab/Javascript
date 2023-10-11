@@ -79,4 +79,119 @@ nav img{
     height: 100%;
 }
 
+/*Real estate catalog*/
 
+.catalog{
+    background-color: #F6F8FA;
+    padding-top: 10px;
+}
+.catalogHeading{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    flex-flow: row wrap;
+    gap: 30px;
+}
+.card{
+
+    width: 380px;
+    height: 400px;
+    border-radius: 15px;
+    background-position: 50% 30%;
+    background-size: 190%;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.card-1{
+    background-image: url(Photos/cardImage1.png);
+}
+.card-2{
+    background-image: url(Photos/cardImage2.png);
+}
+.card-3{
+    background-image: url(Photos/cardImage3.png);
+}
+
+.card-4{
+    background-image: url(Photos/cardImage4.png);
+}
+.card-5{
+    background-image: url(Photos/cardImage5.png);
+}
+.card-6{
+    background-image: url(Photos/cardImage6.png);
+}
+
+.card-7{
+    background-image: url(Photos/cardImage7.png);
+}
+.card-8{
+    background-image: url(Photos/cardImage8.png);
+}
+.card-9{
+    background-image: url(Photos/cardImage9.png);
+}
+
+.card-content{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 76%;
+    margin: 0 auto;
+    bottom: -8vh;
+    left: 1.5vw;
+    margin-top: 45vh;
+    border-radius: 15px;
+    box-shadow: rgba(0,0,0,0.24) 0 3px 8px;
+    height: fit-content;
+}
+/*Check*/
+.row2 .card .card-content{
+    margin-top: 45vh;
+    height: fit-content;
+}
+
+.card h2,
+.card h3{
+    margin: 0;
+    padding: 0;
+}
+
+.card h3{
+    padding: 10px 0;
+    color: #5654d1;
+    font-size: 18px;
+}
+
+.card h2{
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+.card-content   button{
+    background-color: #6663e9;
+    border: none;
+    padding: 10px 23px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 50px;
+}
+.row-1 .card:nth-child(2),
+.row-2 .card:nth-child(2),
+.row-3 .card:nth-child(2){
+    margin-top: 20px;
+}
+.row-1 .card:nth-child(3),
+.row-2 .card:nth-child(3),
+.row-3 .card:nth-child(3){
+    margin-top: 40px;
+}
