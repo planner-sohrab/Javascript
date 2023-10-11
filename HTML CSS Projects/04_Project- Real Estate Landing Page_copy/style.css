@@ -145,15 +145,16 @@ nav img{
     align-items: center;
     justify-content: space-between;
     width: 76%;
-    margin: 0 auto;
+    margin: 54vh auto;
     bottom: -8vh;
     left: 1.5vw;
-    margin-top: 45vh;
+    /*margin-top: 45vh;*/
     border-radius: 15px;
     box-shadow: rgba(0,0,0,0.24) 0 3px 8px;
     height: fit-content;
+    padding: 0 20px;
 }
-/*Check*/
+
 .row2 .card .card-content{
     margin-top: 45vh;
     height: fit-content;
@@ -188,10 +189,10 @@ nav img{
 .row-1 .card:nth-child(2),
 .row-2 .card:nth-child(2),
 .row-3 .card:nth-child(2){
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .row-1 .card:nth-child(3),
 .row-2 .card:nth-child(3),
 .row-3 .card:nth-child(3){
-    margin-top: 40px;
+    margin-top: 60px;
 }
