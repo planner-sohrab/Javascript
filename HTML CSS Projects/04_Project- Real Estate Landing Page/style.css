@@ -15,13 +15,14 @@ header{
     background: url("./Photos/mainBackground.png");
     object-fit: cover;
     height: 100vh;
+    position: relative;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 4rem;
+    padding: 1rem 6rem;
 }
 
 nav ul{
@@ -36,5 +37,46 @@ nav li{
 }
 
 header hr{
-    margin: 0 4rem;
+    margin: 0 3rem;
+}
+
+.text h1{
+    font-size: 4rem;
+    color: #faf5f5;
+    margin-left: 6rem;
+}
+
+.text p{
+    color: #3f3f3f;
+    line-height: 1.4;
+    margin-left: 6rem;
+}
+
+.btn{
+    background-color: #6663E9;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 30px;
+    color: #faf5f5;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4%;
+    padding: 2rem 8rem;
+    /*margin: 2rem 2rem;*/
+    border-radius: 30px;
+    position: absolute;
+    bottom: -8%;
+    background-color: #fff;
+    left: 8%;
+}
+
+.small-cards{
+    background-color: #f6f8fa;
 }
