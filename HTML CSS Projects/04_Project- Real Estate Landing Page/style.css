@@ -80,3 +80,53 @@ header hr{
 .small-cards{
     background-color: #f6f8fa;
 }
+
+.row{
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+
+}
+.card img{
+    height: 100%;
+}
+
+.card{
+    position: relative;
+}
+
+.card-img{
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+.card-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    width: 80%;
+    bottom: -10%;
+    left: 10%;
+    padding: 0 20px;
+}
+
+.card-text h3{
+    font-size: 22px;
+}
+.card-text p{
+    color:#6663E9;
+}
+
+.btn-detail{
+    background-color: #6663E9;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    color: #faf5f5;
+}
