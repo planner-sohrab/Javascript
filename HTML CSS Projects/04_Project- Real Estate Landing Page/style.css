@@ -110,7 +110,7 @@ header hr{
     background-color: #fff;
     border-radius: 10px;
     position: absolute;
-    width: 80%;
+   gap: 4%;
     bottom: -10%;
     left: 10%;
     padding: 0 20px;
@@ -127,6 +127,6 @@ header hr{
     background-color: #6663E9;
     border: none;
     padding: 0.5rem 1rem;
-    border-radius: 30px;
+    border-radius: 20px;
     color: #faf5f5;
 }
