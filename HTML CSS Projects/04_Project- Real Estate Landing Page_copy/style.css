@@ -294,10 +294,47 @@ nav img{
     margin-left: 4rem;
 }
 
-.input  {
-    position: relative;
+.newsletter  {
+    margin: 2rem 4rem;
+    background-color: #6663e9;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
 
+}
+.newsletter h1{
+    color: white;
+}
+.newsletter p{
+    color: #d4d4d4;
+}
+
+.input-box{
+    position: relative;
 }
 .input i{
     position: absolute;
+    top: 5px;
+    left: 130px;
+}
+
+.email-input{
+    text-align: center;
+    padding: 10px 10px;
+    background-color: grey;
+    border-radius: 10px;
+    border:none
+}
+.input{
+    display: flex;
+    gap: 4%;
+
+}
+
+.subscribe-btn{
+    border: none;
+    border-radius: 25px;
+    padding: 0.5rem;
+    color: #6663e9;
+    font-size: 0.8rem;
 }
