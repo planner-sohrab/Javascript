@@ -6,6 +6,7 @@ body{
     font-family: "Roboto", sans-serif;
     box-sizing: border-box;
     overflow-x: hidden;
+    background-color: #F6F8FA;
 }
 
 nav{
@@ -291,4 +292,12 @@ nav img{
 
 .text-2{
     margin-left: 4rem;
+}
+
+.input  {
+    position: relative;
+
+}
+.input i{
+    position: absolute;
 }
