@@ -338,3 +338,21 @@ nav img{
     color: #6663e9;
     font-size: 0.8rem;
 }
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 4rem;
+}
+.footer-right{
+    display: flex;
+}
+
+.footer-right ul{
+    list-style: none;
+}
+
+.footer-right ul li:first-child{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
