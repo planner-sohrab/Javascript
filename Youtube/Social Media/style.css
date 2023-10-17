@@ -4,8 +4,21 @@
     font-family: Poppins, sans-serif;
     box-sizing: border-box;
 }
+
+:root{
+    --body-color: #efefef;
+    --nav-color: #1876f2;
+    --bg-color: #fff;
+}
+
+.dark-theme{
+    --body-color: #0a0a0a;
+    --nav-color: #000;
+    --bg-color: #000;
+}
 body{
-    background-color:#efefef ;
+    background-color:var(--body-color) ;
+    transition: background 0.3s;
 }
 
 nav{
@@ -539,3 +552,4 @@ nav{
     padding-left: 23px;
     background: #000;
 }
+
