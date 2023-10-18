@@ -25,7 +25,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #1876f2;
+    background: var(--nav-color);
     padding: 5px 5%;
     position: sticky;
     top: 0;
@@ -58,7 +58,7 @@ nav{
 }
 
 .search-box{
-    background-color: #efefef;
+    background-color: var(--body-color);
     width: 350px;
     border-radius: 20px;
     display: flex;
@@ -132,7 +132,7 @@ nav{
 }
 
 .right-sidebar{
-    background: #fff;
+    background: var(--bg-color);
     padding: 20px;
     border-radius: 4px;
     color: #626262;
@@ -163,7 +163,7 @@ nav{
 }
 
 .imp-links a:last-child{
-    color: #1876f2;
+    color: var(--nav-color);
 }
 
 .imp-links{
@@ -326,7 +326,7 @@ nav{
 
 .write-post-container{
     width: 100%;
-    background: #fff;
+    background: var(--bg-color);
     border-radius: 6px;
     padding: 20px;
     color: #626262;
@@ -387,7 +387,7 @@ nav{
 
 .post-container{
     width: 100%;
-    background: #fff;
+    background: var(--bg-color);
     border-radius: 6px;
     padding: 20px;
     color: #626262;
@@ -475,7 +475,7 @@ nav{
     width: 90%;
     max-width: 350px;
     height: 400px;
-    background: #fff;
+    background: var(--bg-color);
     box-shadow: 0 0 10px rgba(0,0,0,0.4);
     border-radius: 4px;
     overflow: hidden;
@@ -550,6 +550,6 @@ nav{
 
 #dark-btn.dark-btn-on{
     padding-left: 23px;
-    background: #000;
+    background: #0a0a0a;
 }
 
