@@ -104,3 +104,15 @@ a:focus {
     background-position: center top;
     z-index: -1;
 }
+
+.bg1{
+    width: 450px;
+    height: 450px;
+    transform: translateX(100px) translateY(-130px);
+}
+.bg2{
+    opacity: 1;
+    width: 300px;
+    height: 300px;
+    transform: translateX(202px) translateY(530px);
+}
