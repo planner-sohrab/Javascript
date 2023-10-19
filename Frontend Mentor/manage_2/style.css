@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Be+Vietnam:400,500,700&display=swap");
+
+:root{
+    --primary-bright-red: hsl(12, 88%, 59%);
+    --primary-dark-blue: hsl(228, 39%, 23%);
+    --neutral-dark-grey-blue: hsl(227, 12%, 61%);
+    --neutral-dark-blue: hsl(233, 12%, 13%);
+    --neutral-pale-red: hsl(13, 100%, 96%);
+    --neutral-light-grey: hsl(0, 0%, 98%);
+}
+
+/* Universal Styles */
+
+.screenreader {
+    position: absolute !important; /* Outside the DOM flow */
+    height: 1px; width: 1px; /* Nearly collapsed */
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE 7+ only support clip without commas */
+    clip: rect(1px, 1px, 1px, 1px); /* All other browsers */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Be Vietnam", sans-serif;
+    color: var(--neutral-dark-blue);
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Typography - Base Styles */
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 1.25;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    color: var(--neutral-dark-grey-blue);
+    line-height: 1.8;
+}
+
+a:focus {
+    outline: none;
+}
+
+/* Button Styles */
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    border-radius: 30px;
+    padding: 12px 30px;
+    background-color: var(--primary-bright-red);
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #fff;
+    box-shadow: 0 10px 10px -5px rgba(205,70,25,0.7);
+}
+
+.btn:hover,
+.btn:focus{
+    background-color:rgba(205,70,25,0.8);
+}
+
+/*background elements*/
+.background-container{
+   position: absolute;
+    overflow: hidden;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2000px;
+    display: flex;
+    justify-content: center;
+}
+
+.bg-pattern{
+    position: absolute;
+    background-image: url(images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+    z-index: -1;
+}
