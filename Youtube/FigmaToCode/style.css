@@ -225,11 +225,11 @@ section{
 }
 
 h2{
-    color: #023047;
+    /*color: #023047;*/
     font-family: Raleway, sans-serif;
     font-size: 60px;
     font-weight: 900;
-    /*color: var(--dark-blue-color);*/
+    color: var(--dark-blue-color);
     line-height: 120%; /* 72px */
 }
 
@@ -242,7 +242,7 @@ section p{
     font-weight: normal;
     line-height: 200%;
     color: var(--dark-blue-color);
-    margin: 10px 0;
+    margin: 12px 0;
 }
 
 .testimonials-section{
@@ -258,10 +258,30 @@ section p{
 .testimonials-section .testimonial-card{
     border-radius: 24px;
     width: 442px;
-    height: 222px;
+    /*height: 222px;*/
     background: #FFF;
     margin-bottom: 50px;
-    box-shadow: 0px 9px 36px 0px rgba(0, 0, 0, 0.20);
+    box-shadow: 0 9px 36px rgba(0, 0, 0, 0.20);
+    position: relative;
+}
+
+.testimonial-card::before{
+    content:'';
+    width: 28px;
+    position: absolute;
+    height: 40px;
+    top: -40px;
+    left: 60px;
+    background: var(--dark-blue-color);
+    border-radius: 24px 24px 0 0;
+}
+
+.testimonial-card:last-child::before{
+    left: 40px;
+    top: -50px;
+    border-radius: 0 0 24px 24px;
+    height: calc(100% + 90px);
+    z-index: -10;
 }
 
 .testimonial-card .content{
@@ -290,6 +310,8 @@ section p{
 
 .testimonial-card .info{
     padding: 24px 32px;
+    background: #fff;
+    border-radius: 24px;
 }
 
 .testimonial-card .info .company{
@@ -298,4 +320,16 @@ section p{
     font-size: 18px;
     line-height: 120%;
     color: var(--dark-blue-color);
+}
+
+.testimonial-card img{
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    right: 32px;
+    bottom: 20px;
+}
+
+.testimonial-card:last-child{
+    transform: translateX(20px);
 }
