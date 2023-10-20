@@ -39,13 +39,13 @@ body{
     background: var(--orange-color);
 }
 
-.btn.enroll-btn::before{
-    content: url("images/PencilAlt.svg");
-    position: absolute;
-    top: 50%;
-    left: 20px;
-    transform: translateY(-50%);
-}
+/*.btn.enroll-btn::before{*/
+/*    content: url("images/PencilAlt.svg");*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    left: 20px;*/
+/*    transform: translateY(-50%);*/
+/*}*/
 
 .btn.enroll-btn{
     padding-left: 20px;
@@ -95,10 +95,17 @@ nav ul li a{
     align-items: center;
     justify-content: space-between;
     padding-top: 60px;
+    position: relative;
+    border: 1px solid red;
 }
 
 .hero-section .left{
     width: 457px;
+}
+
+.hero-section .right{
+    border: 1px dotted yellow;
+    align-self: flex-end;
 }
 .hero-section .left h1{
     font-family: Raleway, sans-serif;
@@ -113,12 +120,45 @@ nav ul li a{
     color: #FFF;
     /*font-family: Poppins;*/
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 200%; /* 32px */
+    margin-bottom: 20px;
+}
+
+.hero-section .right img{
+    height: 520px;
+    /*position: absolute;*/
+    /*vertical-align: middle;*/
 }
 
 /*Achievement Cards*/
-.achievement-cards{
-    display: none;
+
+
+.achievement-card{
+    position: absolute;
+}
+
+.achievement-card .content{
+    border-radius: 24px;
+    background: #fff;
+    padding: 8px 32px;
+}
+
+.achievement-card.student-enrolled{
+    left: 47%;
+    top: 330px;
+}
+
+.achievement-card h3{
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--dark-blue-color);
+    margin: 0;
+}
+
+.achievement-card p{
+    font-size: 16px;
+    color: var(--dark-blue-color);
+    margin-top: -8px;
+    margin-bottom: 8px;
 }
