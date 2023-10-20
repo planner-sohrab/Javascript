@@ -42,13 +42,13 @@ body{
 .btn.enroll-btn::before{
     content: url("images/PencilAlt.svg");
     position: absolute;
-    top: 53.5%;
-    left: 12px;
+    top: 50%;
+    left: 20px;
     transform: translateY(-50%);
 }
 
-.btn .enroll-btn{
-    padding-left: 5px;
+.btn.enroll-btn{
+    padding-left: 20px;
 }
 
 /*Header*/
@@ -84,5 +84,4 @@ nav ul li a{
     font-size: 16px;
    text-decoration: none;
     font-weight: 700;
-
 }
