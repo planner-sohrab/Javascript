@@ -5,3 +5,31 @@
     --light-color:#E8F7FB;
     --light-blue-color: #6F7DFB;
 }
+
+*,
+*:after,
+*:before{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn{
+    padding: 16px 32px;
+    border-radius: 24px;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn.dark{
+    background: var(--dark-blue-color);
+}
+
+.btn.light{
+    background: var(--orange-color);
+}
