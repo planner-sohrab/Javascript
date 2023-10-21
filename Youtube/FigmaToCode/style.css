@@ -480,9 +480,42 @@ footer .links-container{
     grid-template-columns: 2fr 2fr 2fr;
 }
 
-.footer .social{
+footer .social{
     margin-left: 20px;
 }
 footer .social a{
     margin-right: 28px;
+}
+
+footer form{
+    margin-left: 20px;
+    margin-top: 16px;
+    position: relative;
+}
+
+footer form input{
+    font-size: 16px;
+    color: #000;
+    line-height: 200%;
+    border-radius: 8px;
+    padding: 8px 32px;
+    width: 100%;
+}
+
+footer .submit-btn{
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--dark-blue-color);
+    border-radius: 8px;
+    padding: 8px 32px;
+    color: #fff;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer .copyright{
+    margin-top: 20px;
 }
