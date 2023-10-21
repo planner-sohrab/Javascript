@@ -362,6 +362,17 @@ section p{
     border-radius: 24px;
     padding: 0 32px;
     margin: 40px 0;
+    position: relative;
+}
+
+.course-card::after{
+    content: "";
+    position: absolute;
+    height: 32px;
+    left: 32px;
+    bottom: 0;
+    border-radius: 24px;
+    color: var(--dark-blue-color);
 }
 
 .course-card h3{
@@ -396,3 +407,4 @@ section p{
     top: 2px;
     left: -6px;
 }
+
