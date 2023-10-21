@@ -453,4 +453,36 @@ section p{
 footer{
     background: var(--dark-color);
     color: #fff;
+    margin-top: 100px;
+    padding: 70px 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer h3{
+    color: var(--orange-color);
+}
+
+footer ul{
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+footer ul li{
+    margin: 16px 0;
+}
+
+footer .links-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+.footer .social{
+    margin-left: 20px;
+}
+footer .social a{
+    margin-right: 28px;
 }
