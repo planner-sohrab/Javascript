@@ -339,6 +339,7 @@ section p{
 .courses-section{
     background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
     padding: 70px 0;
+    padding-bottom: 120px;
 }
 
 .courses-section h2{
@@ -354,7 +355,7 @@ section p{
     width: 100%;
     border-radius: 24px;
     /*background: url(<path-to-image>), lightgray 50% / cover no-repeat;*/
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+    filter:drop-shadow(0 4px 8px rgba(0, 0, 0, 0.25));
 }
 
 .course-card{
@@ -365,14 +366,15 @@ section p{
     position: relative;
 }
 
-.course-card::after{
+.courses-section .course-card::after {
     content: "";
+    height: 8px;
     position: absolute;
-    height: 32px;
     left: 32px;
+    right: 32px;
     bottom: 0;
+    background: var(--dark-blue-color);
     border-radius: 24px;
-    color: var(--dark-blue-color);
 }
 
 .course-card h3{
@@ -408,3 +410,47 @@ section p{
     left: -6px;
 }
 
+.courses-section .wrapper{
+    position: relative;
+}
+
+.courses-section .wrapper .btn{
+    position: absolute;
+    right: 0;
+}
+
+/*App Section*/
+.app-section{
+    text-align: center;
+}
+
+.app-section .app-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 24px;
+}
+
+.app-section .app-buttons .app-btn{
+    padding: 20px 31px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 24px;
+    gap: 24px;
+    min-width: 310px;
+}
+
+.app-btn span{
+    font-size: 20px;
+    color: #fff;
+}
+
+/*footer*/
+
+footer{
+    background: var(--dark-color);
+    color: #fff;
+}
