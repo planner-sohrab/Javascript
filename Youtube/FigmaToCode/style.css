@@ -477,7 +477,7 @@ footer ul li{
 
 footer .links-container{
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-columns: 2fr 2fr 3fr;
 }
 
 footer .social{
@@ -517,5 +517,5 @@ footer .submit-btn{
 }
 
 footer .copyright{
-    margin-top: 20px;
+    margin-top: 36px;
 }
