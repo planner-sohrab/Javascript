@@ -81,7 +81,19 @@ a:focus {
 
 .btn:hover,
 .btn:focus {
-    background-color: rgba(205, 70, 25, 0.8);
+    opacity: 0.8;
+}
+
+.btn.white {
+    background-color: #fff;
+    color: var(--primary-bright-red);
+    box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover.white,
+.btn:hover.white {
+    opacity: 1;
+    color: hsla(12, 88%, 59%, 50%);
 }
 
 /*background elements*/
