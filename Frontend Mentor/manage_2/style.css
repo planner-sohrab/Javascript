@@ -357,3 +357,28 @@ nav .logo{
     background-color: var(--primary-bright-red);
     opacity: 1;
 }
+
+/*CTA Section*/
+.cta{
+    background-color: var(--primary-bright-red);
+    background-image: url("images/bg-simplify-section-mobile.svg");
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.cta-container{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+h2.white{
+    text-align: center;
+    color: #fff;
+    max-width: 310px;
+    margin: 0 0 0;
+}
