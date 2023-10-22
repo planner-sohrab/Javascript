@@ -279,3 +279,81 @@ nav .logo{
     background-color: var(--primary-bright-red);
     margin: 0 10px 0 0;
 }
+
+/*Testimonials section*/
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px 0 50px;
+}
+
+.slider{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 255px;
+    margin: 100px auto 40px;
+}
+
+.card{
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: auto;
+    width: 90%;
+    max-width: 500px;
+    height: 245px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: var(--neutral-light-grey);
+    flex-direction: column;
+    padding-top: 60px;
+    /*display: none;*/
+    animation: cardfade;
+    animation-duration: 1s;
+}
+.card.active-card{
+    display: flex;
+}
+
+@keyframes cardfade {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.card img{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card p{
+    font-size: 0.9rem;
+    padding: 15px 25px;
+}
+
+.dot{
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px 45px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 2px solid var(--primary-bright-red);
+    display: inline-block;
+    opacity: 0.6;
+}
+.active,
+.dot:hover{
+    background-color: var(--primary-bright-red);
+    opacity: 1;
+}
