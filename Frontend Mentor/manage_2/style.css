@@ -238,6 +238,44 @@ nav .logo{
      width: 100%;
  }
 
+/*About*/
 
+.about-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
 
+.about-head h2{
+    max-width: 260px;
+    margin-bottom: 25px;
+}
 
+.about-head p{
+    max-width: 330px;
+    font-size: 0.9rem;
+}
+
+.about-list h5 {
+    background-color: var(--neutral-pale-red);
+    padding: 8px 0;
+    border-radius: 25px 0 0 25px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+.about-list p{
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 0.9rem;
+}
+
+.number{
+    padding: 8px 25px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: var(--primary-bright-red);
+    margin: 0 10px 0 0;
+}
