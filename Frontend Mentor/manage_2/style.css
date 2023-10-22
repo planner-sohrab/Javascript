@@ -795,7 +795,7 @@ footer .container {
     .footer-logo {
         grid-row: 1 / 2;
         grid-column: 1 / 2;
-        margin: 0px 0px;
+        margin: 0 0;
     }
 
     .social-links {
