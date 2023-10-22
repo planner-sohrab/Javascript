@@ -151,6 +151,7 @@ nav .logo {
     display: none;
 }
 
+/*Nav Links*/
 .menu {
     display: none;
     position: fixed;
@@ -328,7 +329,7 @@ nav .logo {
     background-color: var(--neutral-light-grey);
     flex-direction: column;
     padding-top: 60px;
-    /*display: none;*/
+    display: none;
     animation: cardfade;
     animation-duration: 1s;
 }
@@ -426,6 +427,7 @@ footer .container {
     grid-column: 1/3;
     width: 100%;
     margin: 50px 0;
+    display: flex;
     justify-content: center;
 }
 
@@ -523,6 +525,11 @@ footer .container {
 .email-form input:focus,
 .email-form button:focus {
     outline: none;
+}
+
+.email-form.error input {
+    border: var(--primary-bright-red) 2px solid;
+    color: var(--primary-bright-red);
 }
 
 .email-form input::placeholder {
