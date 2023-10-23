@@ -1,0 +1,36 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+nav{
+    border: 1px solid red;
+    width: 50%;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    margin: 1rem auto;
+}
+
+nav a{
+    text-decoration: none;
+
+}
