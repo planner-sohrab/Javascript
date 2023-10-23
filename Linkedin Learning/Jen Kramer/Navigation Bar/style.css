@@ -18,7 +18,9 @@ body{
 }
 
 nav{
-
+    border: 1px solid #333;
+    width: 50%;
+    margin: 1rem auto;
 }
 
 nav ul{
@@ -30,4 +32,15 @@ ul a{
     color: #00bff3;
     font-size: 1.5rem;
     font-weight: 600;
+
 }
+
+nav a:focus{
+    background-color: #f0c808;
+    color: black;
+}
+
+nav a:hover{
+    color: #ff583d;
+}
+
