@@ -21,10 +21,17 @@ nav{
     border: 1px solid #333;
     width: 50%;
     margin: 1rem auto;
+    background-color: #eee;
 }
 
 nav ul{
    list-style-type: none;
+}
+
+
+nav li:hover{
+
+
 }
 
 ul a{
@@ -32,6 +39,8 @@ ul a{
     color: #00bff3;
     font-size: 1.5rem;
     font-weight: 600;
+    display: block;
+    padding: 0.5rem 1rem;
 
 }
 
@@ -42,5 +51,11 @@ nav a:focus{
 
 nav a:hover{
     color: #ff583d;
+    background-color: #f0c808;
+}
+
+.active{
+    color: #ff583d;
+    background-color: #c5e5ed;
 }
 
