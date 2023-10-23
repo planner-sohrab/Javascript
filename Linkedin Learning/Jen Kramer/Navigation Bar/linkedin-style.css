@@ -18,9 +18,10 @@ body{
 }
 
 nav{
-    border: 1px solid red;
+
     width: 50%;
     /*margin: 1rem auto;*/
+    border-right: 3px solid dodgerblue;
 }
 
 nav ul{
@@ -33,11 +34,21 @@ nav a{
     font-size: 1.2rem;
     font-weight: 600;
     display: block;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
 
 }
 
 nav a:hover{
     background: #1876f2;
+    color: #fff;
+}
+
+nav a:hover i{
+
+    color: #f3ba64;
+}
+
+nav i{
+    display: block;
 
 }
