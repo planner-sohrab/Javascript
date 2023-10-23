@@ -57,5 +57,7 @@ nav a:hover{
 .active{
     color: #ff583d;
     background-color: #c5e5ed;
+    border-top: 5px solid #00bff3;
+    border-bottom: 5px solid #00bff3;;
 }
 
