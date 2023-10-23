@@ -862,16 +862,26 @@ footer .container {
     h1{
         font-size: 3rem;
     }
-
+    .nav-links li a{
+        font-size: 0.75rem;
+    }
     /*Main*/
     .main-text h1{
         max-width: 440px;
     }
 
     .main-grid{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        margin: 0 auto 130px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main-grid .btn{
+        position: absolute;
+        /*align-self: flex-end;*/
+        bottom: -50px;
+
     }
 
     /*About*/
