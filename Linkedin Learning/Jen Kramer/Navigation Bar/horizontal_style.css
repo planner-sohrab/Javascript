@@ -6,3 +6,8 @@ nav ul{
 nav li{
     display: inline-block;
 }
+
+nav a{
+    padding: 1rem;
+    text-decoration: none;
+}
