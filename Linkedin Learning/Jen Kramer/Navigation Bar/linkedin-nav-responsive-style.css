@@ -10,7 +10,7 @@ html{
 }
 
 body{
-    font-family: "Roboto Slab", serif;
+    font-family: "Verta", sans-serif;
     font-weight: 400;
     margin: 0;
     padding: 0;
@@ -19,13 +19,14 @@ body{
 
 nav{
 
-    width: 50%;
+
     /*margin: 1rem auto;*/
-    border-right: 3px solid dodgerblue;
+
 }
 
 nav ul{
     list-style: none;
+    display: flex;
 }
 
 
@@ -34,7 +35,7 @@ nav a{
     font-size: 1.2rem;
     font-weight: 600;
     display: block;
-    padding: 1rem 1rem;
+    padding: 1rem;
 
 }
 
