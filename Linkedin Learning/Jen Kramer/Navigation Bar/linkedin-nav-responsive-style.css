@@ -1,0 +1,54 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+nav{
+
+    width: 50%;
+    /*margin: 1rem auto;*/
+    border-right: 3px solid dodgerblue;
+}
+
+nav ul{
+    list-style: none;
+}
+
+
+nav a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: block;
+    padding: 1rem 1rem;
+
+}
+
+nav a:hover{
+    background: #1876f2;
+    color: #fff;
+}
+
+nav a:hover i{
+
+    color: #f3ba64;
+}
+
+nav i{
+    display: block;
+
+}
