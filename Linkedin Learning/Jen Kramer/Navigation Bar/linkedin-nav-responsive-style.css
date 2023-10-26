@@ -19,15 +19,18 @@ body{
 }
 
 nav{
-
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
 
     /*margin: 1rem auto;*/
-
 }
 
 nav ul{
     list-style: none;
-    display: flex;
+    background-color: #e7e6e6;
+    border-radius: 4px;
 }
 
 
@@ -36,24 +39,31 @@ nav a{
     font-size: 1rem;
     font-weight: 600;
     display: block;
-    padding: 1rem;
-
+    padding: 0.5rem;
+    width: 250px;
 }
- nav span::before{
-     content: "\a";
-     white-space: pre;
- }
+ /*nav span::before{*/
+ /*    content: "\a";*/
+ /*    white-space: pre;*/
+ /*}*/
 nav a:hover{
     background: #1876f2;
     color: #fff;
 }
 
-nav a:hover i{
+.close-btn{
+    width: 250px;
+    text-align: center;
+}
 
+.close:hover{
+    background: transparent;
+}
+
+nav a:hover i{
     color: #f3ba64;
 }
 
 nav i{
     display: block;
-
 }
