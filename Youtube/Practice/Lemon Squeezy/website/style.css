@@ -142,6 +142,25 @@ nav a:hover{
     /*display: flex;*/
 }
 
+.characteristics{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-top: 100px;
+}
+
+.why .right{
+    flex-basis:50%;
+}
+
+.why .left{
+    flex-basis: 50%;
+}
+.why .right img{
+    width: 100%;
+}
+
+
 .why .left{
     display: flex;
     flex-direction: column;
