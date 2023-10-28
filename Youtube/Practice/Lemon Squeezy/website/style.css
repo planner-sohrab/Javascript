@@ -62,7 +62,7 @@ nav a:hover{
 }
 
 .container{
-    padding: 4rem 6rem;
+    padding: 4rem 6rem 0;
     height: 100vh;
     background-color: #5523e7;
     color: #fff;
@@ -115,7 +115,7 @@ nav a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
 }
 .trust p{
     flex-basis: 30%;
@@ -137,6 +137,8 @@ nav a:hover{
 
 /*Why section*/
 .why{
+    padding-top: 8rem;
+    /*margin-top: 4rem;*/
     color: #9a9a9a;
 }
 
