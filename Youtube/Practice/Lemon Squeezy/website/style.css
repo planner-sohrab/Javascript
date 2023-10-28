@@ -71,7 +71,6 @@ nav a:hover{
 
 .hero{
     display: flex;
-    
 }
 
 .left{
@@ -140,5 +139,11 @@ nav a:hover{
     padding-top: 8rem;
     /*margin-top: 4rem;*/
     color: #9a9a9a;
+    /*display: flex;*/
 }
 
+.why .left{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
