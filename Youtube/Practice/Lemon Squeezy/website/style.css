@@ -113,3 +113,27 @@ nav a:hover{
     position: absolute;
 }
 
+.trust{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trust p{
+    flex-basis: 30%;
+    line-height: 2;
+}
+
+.icon-group{
+    flex-basis: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+
+.icon-group img{
+    height: 80px;
+}
+
+
