@@ -10,41 +10,18 @@
     <title>Title</title>
 </head>
 <body>
-    <section class="block container">
-        <header class="block__header">
-        <h2 class="block__heading">Heading</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, consequuntur.</p>
-        </header>
-    </section>
-    <section class="block block--dark block--skewed-left">
-       <div class="container">
-           <header class="block__header">
-               <h2 class="block__heading">Heading</h2>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, consequuntur.</p>
-           </header>
-           <div style="width: 30%;">
-               <div class="card card--secondary">
-                   <header class="card__header">
-                       <h3 class="plan__name">Entry</h3>
-                       <span class="plan__price">$14</span>
-                       <span class="plan__billing-cycle">/month</span>
-                       <span class="badge badge--secondary badge--small">10% OFF</span>
-                       <span class="plan__description">Easy start on the cloud</span>
-                   </header>
-                   <div class="card__body">
-                       <ul class="list list--tick">
-                           <li class="list__item">Unlimited Websites</li>
-                           <li class="list__item">Unlimited Bandwidth</li>
-                           <li class="list__item">100 GB SSD Storage</li>
-                           <li class="list__item">3 GB SSD RAM</li>
-                       </ul>
-                       <button class="btn btn--outline btn--block">Buy Now</button>
-                   </div>
-               </div>
-           </div>
-       </div>
-    </section>
+<nav class="nav">
+    <a href="/"><img src="images/logo.svg" alt=""></a>
+    <svg class="icon icon--white">
+        <use xlink:href="images/sprite.svg/#menu"></use>
+    </svg>
+    <ul class="list nav__list">
+        <li class="nav__item"><a href="#">Hosting</a></li>
+        <li class="nav__item"><a href="#">VPS</a></li>
+        <li class="nav__item"><a href="#">Domain</a></li>
+        <li class="nav__item"><a href="#">Pricing</a></li>
+    </ul>
+</nav>
 
-    <script src="js/main.js"></script>
 </body>
 </html>
