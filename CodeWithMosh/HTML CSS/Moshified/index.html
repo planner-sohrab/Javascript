@@ -10,14 +10,41 @@
     <title>Title</title>
 </head>
 <body>
-    <div class="callout callout--primary">
-        <div class="grid grid--1x2">
-            <div class="callout__content">
-                <h2 class="callout__heading">Ready to Get Started?</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ipsam iure omnis quam totam? Cumque doloremque id illum odio ratione?</p>
-            </div>
-            <a href="#" class="btn btn--primary btn--stretched" >Get Started</a>
-        </div>
-    </div>
+    <section class="block container">
+        <header class="block__header">
+        <h2 class="block__heading">Heading</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, consequuntur.</p>
+        </header>
+    </section>
+    <section class="block block--dark block--skewed-left">
+       <div class="container">
+           <header class="block__header">
+               <h2 class="block__heading">Heading</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, consequuntur.</p>
+           </header>
+           <div style="width: 30%;">
+               <div class="card card--secondary">
+                   <header class="card__header">
+                       <h3 class="plan__name">Entry</h3>
+                       <span class="plan__price">$14</span>
+                       <span class="plan__billing-cycle">/month</span>
+                       <span class="badge badge--secondary badge--small">10% OFF</span>
+                       <span class="plan__description">Easy start on the cloud</span>
+                   </header>
+                   <div class="card__body">
+                       <ul class="list list--tick">
+                           <li class="list__item">Unlimited Websites</li>
+                           <li class="list__item">Unlimited Bandwidth</li>
+                           <li class="list__item">100 GB SSD Storage</li>
+                           <li class="list__item">3 GB SSD RAM</li>
+                       </ul>
+                       <button class="btn btn--outline btn--block">Buy Now</button>
+                   </div>
+               </div>
+           </div>
+       </div>
+    </section>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
