@@ -43,6 +43,7 @@ h2{
 
 h3{
     font-size: 3rem;
+    font-weight: 500;
 }
 
 p{
@@ -134,7 +135,7 @@ a{
 .list{
     list-style: none;
     padding-left:0;
-    color: var(--color-headings);
+
 }
 
 .list--inline .list__item{
@@ -145,6 +146,7 @@ a{
 .list--tick{
     list-style-image: url(../images/tick.svg);
     padding-left: 3rem;
+    color: var(--color-headings);
 }
 
 .list--tick .list__item{
@@ -770,7 +772,7 @@ margin: 1rem 0;
 
 
 /*Showcase block*/
-.block--showcase__image{
+.block--showcase__image > img{
     width: 100%;
 }
 
@@ -780,9 +782,12 @@ margin: 1rem 0;
     }
 
     .block--showcase__image{
+        justify-self: end;
+    }
+
+    .block--showcase__image > img{
         width: auto;
         max-width: 700px;
-        justify-self: right;
     }
 
 }
