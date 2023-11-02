@@ -773,3 +773,15 @@ margin: 1rem 0;
 .block--showcase__image{
     width: 100%;
 }
+
+@media  screen  and (min-width: 768px){
+    .block-showcase .grid{
+        grid-template-columns: 50% 50%;
+    }
+
+    .block--showcase__image{
+        width: auto;
+        justify-self: right;
+    }
+
+}
