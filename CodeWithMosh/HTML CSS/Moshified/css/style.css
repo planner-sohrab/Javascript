@@ -795,10 +795,10 @@ margin: 1rem 0;
 /*Footer*/
 
 .footer{
-
-
-
-
-
     background: #232323;
+}
+
+.footer__section{
+    padding: 2rem;
+    border-bottom: 1px solid #393939;
 }
