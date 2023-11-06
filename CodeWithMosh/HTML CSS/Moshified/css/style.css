@@ -620,6 +620,21 @@ a{
 .nav__item > a:hover{
     color: #fff;
 }
+
+/*Collapsibles*/
+.collapsible__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.collapsible__heading{
+    margin-top: 0;
+    font-size: 3rem;
+}
+
+.collapsible__chevron{
+    transform: rotate(-90deg);
+}
 .nav__toggler{
     opacity: 0.5;
     transition: box-shadow 0.15s;
