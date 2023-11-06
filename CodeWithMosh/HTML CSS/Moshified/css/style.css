@@ -826,6 +826,7 @@ margin: 1rem 0;
 
 .footer__brand img{
     width: 100% ;
+    max-width: 300px;
 }
 
 .footer__copyright{
