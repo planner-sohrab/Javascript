@@ -2,6 +2,7 @@
     display: grid;
     grid-template-rows: 100px auto 100px;
     grid-template-columns:  30fr 70fr;
+    grid-template-areas: "header header" "aside main" "footer footer";
     border: 5px solid red;
     height: 100vh;
     row-gap: 10px;
@@ -14,6 +15,9 @@
 }
 
 .box-one{
-    grid-column: 1 /span 2 ;
-    grid-row: 1;
+   grid-area: header;
+}
+
+.box-four{
+    grid-area: footer;
 }
