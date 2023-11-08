@@ -1,12 +1,18 @@
 .container{
     display: grid;
-    grid-template-rows: repeat(3, 100px);
-    grid-template-columns:  30% 70%;
+    grid-template-rows: 100px auto 100px;
+    grid-template-columns:  30fr 70fr;
     border: 5px solid red;
     height: 100vh;
+    row-gap: 10px;
+    column-gap: 10px;
 }
 
 .box{
 
     background: gold;
+}
+
+.box-one{
+    grid-column: 2;
 }
