@@ -57,7 +57,7 @@ h4 {font-size: var(--h4);}
 
 h5 {font-size: var(--h5);}
 
-small, .text_small {font-size: 0.8rem;}
+small, .text_small {font-size: calc(var(--base-size)/var(--scale));}
 
 
 
