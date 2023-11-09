@@ -103,6 +103,17 @@ figure {
     .wrapper{
         max-width: 375px;
         border: 1px solid white;
+        margin: 0 auto;
+    }
+    header{
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+
+    header img{
+        max-width: 150px;
+        border: 1px solid lime;
     }
 
 }
