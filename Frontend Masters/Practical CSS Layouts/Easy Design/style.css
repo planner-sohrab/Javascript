@@ -1,3 +1,7 @@
+@layer base{
+
+
+
 :root {
     --base-size: 1rem;
     --scale: 1.25;
@@ -92,4 +96,13 @@ img {
 figure {
     margin: 0;
     padding: 0;
+}
+
+}
+@layer header{
+    .wrapper{
+        max-width: 375px;
+        border: 1px solid white;
+    }
+
 }
