@@ -196,9 +196,13 @@
             gap: 2rem;
         }
 
-        .wrapper > *{
-            border: 1px solid var(--lime);
+        /*.wrapper > *{*/
+        /*    border: 1px solid var(--lime);*/
+        /*}*/
+        main{
+            grid-area: 1/2/5/3;
+            display: block;
+            padding-top: 8rem;
         }
-
     }
 }
