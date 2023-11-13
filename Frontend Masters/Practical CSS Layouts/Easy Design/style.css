@@ -154,6 +154,13 @@
         color: var(--lime);
         font-size: var(--h5);
     }
+
+    @media (min-width: 800px){
+        .wrapper{
+            width: 700px;
+        }
+    }
+
 }
 
 @layer reviews {
@@ -167,15 +174,15 @@
 
 }
 @layer tablet{
-    @media screen and (min-width:768px){
-        .banner{
-            width: 700px;
-        }
+    /*@media screen and (min-width:768px){*/
+    /*    .banner{*/
+    /*        width: 700px;*/
+    /*    }*/
 
-        .main{
-            display: grid;
-            grid-template-rows: repeat(4, 1fr);
-            grid-template-columns: repeat(3, 100px);
-        }
-    }
+    /*    .main{*/
+    /*        display: grid;*/
+    /*        grid-template-rows: repeat(4, 1fr);*/
+    /*        grid-template-columns: repeat(3, 100px);*/
+    /*    }*/
+    /*}*/
 }
