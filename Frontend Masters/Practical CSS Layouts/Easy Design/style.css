@@ -127,7 +127,7 @@
 
 @layer header {
     .wrapper {
-        max-width: 375px;
+        width: 375px;
         border: 1px solid white;
         margin: 0 auto;
     }
@@ -157,7 +157,7 @@
 
     @media (min-width: 800px){
         .wrapper{
-            width: 700px;
+            width: 800px;
         }
     }
 
