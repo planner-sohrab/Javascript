@@ -127,7 +127,7 @@
 
 @layer header {
     .wrapper {
-        width: 375px;
+        max-width: 375px;
         border: 1px solid white;
         margin: 0 auto;
     }
@@ -157,7 +157,16 @@
 
     @media (min-width: 800px){
         .wrapper{
-            width: 800px;
+            max-width: 800px;
+        }
+
+
+        main{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        main h1{
+            grid-area: 1/1/2/4;
         }
     }
 
