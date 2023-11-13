@@ -187,4 +187,18 @@
             gap: 2rem;
         }
     }
+
+    @media (min-width: 1025px){
+        .wrapper{
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 2rem;
+        }
+
+        .wrapper > *{
+            border: 1px solid var(--lime);
+        }
+
+    }
 }
