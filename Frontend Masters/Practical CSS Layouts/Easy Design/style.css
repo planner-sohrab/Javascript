@@ -128,7 +128,6 @@
 @layer header {
     .wrapper {
         max-width: 375px;
-        border: 1px solid white;
         margin: 0 auto;
     }
 
@@ -140,7 +139,6 @@
 
     header img {
         max-width: 150px;
-        border: 1px solid lime;
     }
 
 }
@@ -181,17 +179,11 @@
         width: 18px;
     }
 
-}
-@layer tablet{
-    /*@media screen and (min-width:768px){*/
-    /*    .banner{*/
-    /*        width: 700px;*/
-    /*    }*/
-
-    /*    .main{*/
-    /*        display: grid;*/
-    /*        grid-template-rows: repeat(4, 1fr);*/
-    /*        grid-template-columns: repeat(3, 100px);*/
-    /*    }*/
-    /*}*/
+    @media (min-width: 800px){
+        aside{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+    }
 }
