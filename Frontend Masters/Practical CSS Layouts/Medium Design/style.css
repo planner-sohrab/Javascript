@@ -180,6 +180,11 @@
         grid-area: 1/1/2/3;
     }
 
+    main p:nth-child(odd){
+        justify-self: end;
+        align-self: center;
+    }
+
 
     .button-primary {
         border: 2px solid var(--magenta);
