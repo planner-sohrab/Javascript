@@ -163,6 +163,24 @@
         width: 170px;
     }
 
+    .button-primary:hover{
+        color: var(--cyan);
+        border-color: var(--cyan) ;
+    }
+
+    .button-soldout{
+        color: var(--magenta50);
+        border-color: var(--magenta50);
+        background: linear-gradient(to top right, transparent calc(50% - 2px), var(--magenta50), transparent calc(50% + 2px));
+        pointer-events: none; /*alternative solution, does not require hover code*/
+    }
+
+    /*.button-soldout:hover{*/
+    /*    color: var(--magenta50);*/
+    /*    border-color: var(--magenta50);*/
+    /*}*/
+
+
 }
 
 @media (min-width: 800px) {
