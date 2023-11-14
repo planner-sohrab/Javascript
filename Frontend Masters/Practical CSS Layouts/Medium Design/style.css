@@ -150,12 +150,17 @@
     }
 
     .button-primary{
-        border: 1px solid var(--magenta);
+        border: 2px solid var(--magenta);
         padding: 0.8rem 1.5rem;
         text-transform: uppercase;
         /*font-family: var(--serif);*/
-        border-radius: 5px;
+        border-radius: 10px;
         text-decoration: none;
+        color: var(--magenta);
+        font-weight: 600;
+        display: inline-block;
+        white-space: nowrap;
+        width: 170px;
     }
 
 }
