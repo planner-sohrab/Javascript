@@ -140,14 +140,19 @@
     }
 }
 @layer tour{
-
+    p:has(.club){
+        font-family: var(--sans-serif);
+    }
     .date {
         color: var(--tan);
+        font-family: var(--cursive);
     }
     .club {
         color: var(--lime);
         font-size: var(--h5);
+        font-family: var(--serif);
     }
+
 
     .button-primary{
         border: 2px solid var(--magenta);
