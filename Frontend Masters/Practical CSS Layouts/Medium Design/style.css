@@ -26,9 +26,11 @@
         --serif: "Cormorant Garamond", serif;
         --cursive: "Pacifico", cursive;
     }
+
     html {
         box-sizing: border-box;
     }
+
     *,
     *:before,
     *:after {
@@ -91,38 +93,47 @@
     .h6 {
         font-size: var(--h6);
     }
+
     a {
         color: var(--lime);
     }
+
     a:hover {
         color: var(--cyan);
         text-decoration: none;
     }
+
     img {
         width: 100%;
         max-width: 100%;
     }
+
     main {
         margin-bottom: 4rem;
     }
+
     figure {
         margin: 0;
         padding: 0;
     }
+
     blockquote {
         margin: 0;
         padding: 0;
     }
+
     cite {
         font-style: normal;
         display: block;
         margin-top: -3px;
     }
+
     footer {
         margin-top: 5rem;
         text-transform: uppercase;
     }
 }
+
 @layer header-banner {
     .wrapper {
         max-width: 375px;
@@ -139,34 +150,38 @@
         max-width: 150px;
     }
 }
-@layer tour{
-    p:has(.club){
+
+@layer tour {
+    p:has(.club) {
         font-family: var(--sans-serif);
     }
+
     .date {
         color: var(--tan);
         font-family: var(--cursive);
     }
+
     .club {
         color: var(--lime);
         font-size: var(--h5);
         font-family: var(--serif);
     }
-    main{
+
+    main {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 
-    main > *{
-        border: 1px solid var(--lime);
-    }
-    main h1{
+    /*main > *{*/
+    /*    border: 1px solid var(--lime);*/
+    /*}*/
+    main h1 {
         font-family: var(--cursive);
         grid-area: 1/1/2/3;
     }
 
 
-    .button-primary{
+    .button-primary {
         border: 2px solid var(--magenta);
         padding: 0.8rem 1.5rem;
         text-transform: uppercase;
@@ -180,12 +195,12 @@
         width: 170px;
     }
 
-    .button-primary:hover{
+    .button-primary:hover {
         color: var(--cyan);
-        border-color: var(--cyan) ;
+        border-color: var(--cyan);
     }
 
-    .button-soldout{
+    .button-soldout {
         color: var(--magenta50);
         border-color: var(--magenta50);
         background: linear-gradient(to top right, transparent calc(50% - 2px), var(--magenta50), transparent calc(50% + 2px));
@@ -196,8 +211,24 @@
     /*    color: var(--magenta50);*/
     /*    border-color: var(--magenta50);*/
     /*}*/
+}
 
+@layer footer {
+    footer ul {
+        list-style: none;
 
+    }
+
+    footer ul:first-child{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+
+    }
+
+    footer a {
+        text-decoration: none;
+    }
 }
 
 @media (min-width: 800px) {
@@ -207,6 +238,7 @@
     }
 
 }
+
 @media (min-width: 1025px) {
     .wrapper {
         max-width: 1200px;
