@@ -152,9 +152,17 @@
         font-size: var(--h5);
         font-family: var(--serif);
     }
+    main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
+    main > *{
+        border: 1px solid var(--lime);
+    }
     main h1{
         font-family: var(--cursive);
+        grid-area: 1/1/2/3;
     }
 
 
