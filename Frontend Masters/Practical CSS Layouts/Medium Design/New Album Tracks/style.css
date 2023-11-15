@@ -241,9 +241,13 @@
     }
 
    caption{
-        display: none;
+        visibility: collapse;
+    }
+    th, td{
+        padding: 1rem 0;
     }
     th{
+        text-align: left;
         font-family: var(--sans-serif);
         border-bottom: 1px solid var(--white);
     }
