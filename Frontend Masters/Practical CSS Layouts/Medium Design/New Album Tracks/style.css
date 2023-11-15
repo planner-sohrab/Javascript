@@ -21,6 +21,7 @@
         --cyan: #7de6f4;
         --black: #050d14;
         --shadow: #050d1480;
+        --grey: #adb0c0;
         --gradient: linear-gradient(180deg, var(--black) 0%, var(--teal) 100%);
 
         /* fonts */
@@ -249,7 +250,8 @@
     th{
         text-align: left;
         font-family: var(--sans-serif);
-        border-bottom: 1px solid var(--white);
+        border-bottom: 1px solid var(--grey);
+        color: var(--grey);
     }
 }
 @layer footer {
