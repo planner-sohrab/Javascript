@@ -247,6 +247,7 @@
     th, td{
         padding: 1rem 0;
     }
+
     th{
         text-align: left;
         font-family: var(--sans-serif);
