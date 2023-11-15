@@ -253,6 +253,11 @@
         border-bottom: 1px solid var(--grey);
         color: var(--grey);
     }
+    td:last-of-type{
+        font-family: var(--serif);
+        color: var(--magenta);
+        font-weight: 600;
+    }
 }
 @layer footer {
     footer {
