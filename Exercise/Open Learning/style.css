@@ -4,8 +4,43 @@
     padding: 0;
 }
 
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
 main{
-    background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(216,255,240,1) 0%, rgba(251,228,242,1) 100%);
+    background: linear-gradient(to bottom right, rgba(2,0,36,1) 0%, rgba(216,255,240,1) 0%, rgba(251,228,242,1) 100%);
     max-height: 100vh;
     max-width: 1200px;
 }
+
+.hero-left{
+    padding: 4rem;
+}
+
+.btn-group{
+    margin: 3rem 0;
+}
+.btn{
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    font-weight: 600;
+
+}
+
+.btn-primary{
+    background: linear-gradient(355.89deg, rgb(225, 69, 70) 2.4%, rgb(202, 46, 47) 2.41%, rgb(210, 11, 112) 80.44%);
+    color: #fff;
+
+}
+
+.btn-secondary{
+    background: rgb(251, 233, 238);
+color: rgb(207, 27, 83);
+}
+
+
