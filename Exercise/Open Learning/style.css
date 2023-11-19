@@ -19,6 +19,10 @@ h1, h2, h3 {
     margin: 0;
 }
 
+h6{
+    font-size: 14px;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -53,11 +57,10 @@ nav ul {
 main {
     background: linear-gradient(to bottom right, rgba(2, 0, 36, 1) 0%, rgba(216, 255, 240, 1) 0%, rgba(251, 228, 242, 1) 100%);
     padding: 0 4rem;
-
 }
 
 .hero {
-    border: 2px solid lime;
+
     height: 85vh;
     display: flex;
 }
@@ -78,6 +81,10 @@ main {
     font-weight: 400;
     margin-top: 24px;
     line-height: 25px;
+}
+
+.hero-left h6{
+    margin-top: 3rem;
 }
 
 .btn-group {
@@ -104,6 +111,14 @@ main {
 /*Hero right*/
 .hero-right{
     width: 50%;
+    position: relative;
+
+}
+
+.hero-right img{
+    position: absolute;
+    top: 4rem;
+    width: 700px;
 }
 /*Collaboration*/
 .collaboration {
