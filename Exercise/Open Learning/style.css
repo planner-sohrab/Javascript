@@ -110,6 +110,11 @@ main {
     color: #fff;
 }
 
+.btn-primary:hover{
+    opacity: 0.9;
+    color: #fff;
+}
+
 .btn-secondary {
     background: rgb(251, 233, 238);
     color: rgb(207, 27, 83);
