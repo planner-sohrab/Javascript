@@ -1,33 +1,45 @@
-*{
+:root{
+font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+
+
+body {
     font-family: "Montserrat", sans-serif;
 
 }
-h1, h2, h3{
+
+h1, h2, h3 {
     margin: 0;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
-img{
+
+img {
     width: 100%;
 }
+
 /*Navigation bar*/
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 4rem;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    box-shadow: rgba(0, 0, 0, 0.15) 0 3px 8px 0;
+    /*box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);*/
+    z-index: 10;
 }
 
-nav ul{
+nav ul {
 
     list-style: none;
     display: flex;
@@ -40,62 +52,72 @@ nav ul{
 /*Hero section*/
 main {
     background: linear-gradient(to bottom right, rgba(2, 0, 36, 1) 0%, rgba(216, 255, 240, 1) 0%, rgba(251, 228, 242, 1) 100%);
-
+    padding: 0 4rem;
 
 }
-.hero{
+
+.hero {
+    border: 2px solid lime;
     height: 85vh;
     display: flex;
 }
 
 
-.hero-left{
-    padding: 4rem;
+.hero-left {
+    width: 50%;
+    padding-top: 4rem;
 }
 
-.hero-left h1{
+.hero-left h1 {
     font-size: 52px;
     line-height: 1.5;
 }
 
-.hero-left p{
+.hero-left p {
     font-size: 18px;
     font-weight: 400;
     margin-top: 24px;
     line-height: 25px;
 }
 
-.btn-group{
+.btn-group {
     margin-top: 4rem;
     margin-bottom: 0;
 }
-.btn{
+
+.btn {
     padding: 1rem 2rem;
     border-radius: 25px;
     font-weight: 600;
 }
 
-.btn-primary{
+.btn-primary {
     background: linear-gradient(355.89deg, rgb(225, 69, 70) 2.4%, rgb(202, 46, 47) 2.41%, rgb(210, 11, 112) 80.44%);
     color: #fff;
 }
 
-.btn-secondary{
+.btn-secondary {
     background: rgb(251, 233, 238);
     color: rgb(207, 27, 83);
 }
 
+/*Hero right*/
+.hero-right{
+    width: 50%;
+}
 /*Collaboration*/
-.collaboration{
+.collaboration {
 
     margin: 0 4rem;
 }
-.collaboration ul{
+
+.collaboration ul {
     margin-top: 2rem;
     display: flex;
     justify-content: space-around;
     list-style: none;
 }
-.collaboration img{
+
+.collaboration img {
     width: 120px;
 }
