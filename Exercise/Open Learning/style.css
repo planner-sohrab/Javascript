@@ -189,10 +189,13 @@ main {
 /*formal education section*/
 .formal-education{
     margin: 0 auto;
-    padding: 4rem;
+    padding: 4rem 10rem;
     display: flex;
     justify-content: space-between;
+}
 
+.fe-left{
+    width: 50%;
 }
 
 .fe-heading{
@@ -208,4 +211,19 @@ main {
 
 .formal-education p{
     color: #9a9a9a;
+    padding-bottom: 12px;
+}
+.formal-education .btn-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 21rem;
+}
+.fe-right{
+    width: 50%;
+}
+
+.fe-right img{
+    width: 490px;
 }
