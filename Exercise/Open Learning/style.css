@@ -227,3 +227,14 @@ main {
 .fe-right img{
     width: 490px;
 }
+
+/*Course type section*/
+.course-type{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.course-type img{
+    height: 80px;
+}
