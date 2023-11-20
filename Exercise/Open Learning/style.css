@@ -124,18 +124,19 @@ main {
 .hero-right{
     width: 50%;
     position: relative;
+    /*margin-bottom: 2rem;*/
 
 }
 
 .hero-right img{
     position: absolute;
     top: 4rem;
-    width: 700px;
+    width: 650px;
 }
 /*Collaboration*/
 .collaboration {
 
-    margin: 0 4rem;
+    margin: 2rem 4rem;
 }
 
 .collaboration ul {
@@ -149,9 +150,9 @@ main {
     width: 120px;
 }
 
-/*Stat Section*/
+/*Statistics Section*/
 .stats{
-    padding-top: 60px;
+    padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
 }
