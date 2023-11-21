@@ -385,10 +385,12 @@ main {
     border-radius: 25px;
     position: relative;
 }
+.text{
+    width: 450px;
+}
+.text p:first-child{
 
-.text p{
-    width: 600px;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.5;
 }
 .user{
@@ -411,8 +413,8 @@ main {
 
 .background{
     position: absolute;
-    left: -15%;
-    top: -10%;
+    left: -12%;
+    top: -25%;
     z-index: -1;
 }
 
@@ -422,9 +424,10 @@ main {
     overflow: hidden;
     position: absolute;
     background: white;
-    top: 65%;
-    right: 20%;
+    top: 30%;
+    right: 13%;
     z-index: 10;
+    box-shadow: 4px 0 10px rgba(0,0,0, 0.4);
 }
 
 .course-card h4{
