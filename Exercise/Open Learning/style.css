@@ -375,3 +375,44 @@ main {
     width: 60px;
     border-radius: 50%;
 }
+
+.testimonial-body{
+    width: 1000px;
+    margin: 2rem auto;
+    background: #E5EAEB;
+    padding: 4rem;
+    border-radius: 25px;
+}
+
+.text p{
+    width: 400px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.user h4{
+    font-size: 20px;
+}
+.user p{
+    margin-top: 0.5rem;
+}
+.user img{
+    width: 80px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.background{
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.course-card{
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+}
