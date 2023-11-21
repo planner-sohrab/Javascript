@@ -354,3 +354,24 @@ main {
     margin-bottom: 3rem;
     line-height: 1.5;
 }
+
+/*Testimonials*/
+.testimonials{
+    margin: 6rem;
+}
+
+.testimonial-header{
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial-persons{
+    display: flex;
+    gap: 1rem;
+}
+
+.testimonial-persons img{
+    width: 60px;
+    border-radius: 50%;
+}
