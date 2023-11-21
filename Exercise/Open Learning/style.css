@@ -322,3 +322,35 @@ main {
     margin-bottom: 3rem;
     line-height: 1.5;
 }
+/*Interactive and social section*/
+
+
+
+.interactive-social{
+    display: flex;
+    justify-content: space-between;
+    margin: 6rem;
+}
+
+.is-right{
+    width: 50%;
+}
+
+.is-left{
+    width: 50%;
+    padding: 4rem;
+}
+
+.is-left h4{
+    color: grey;
+    text-transform: uppercase;
+}
+.is-left h2{
+    margin-bottom: 2rem;
+    font-size: 36px;
+}
+
+.is-left p{
+    margin-bottom: 3rem;
+    line-height: 1.5;
+}
