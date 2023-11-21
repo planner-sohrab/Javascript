@@ -257,11 +257,25 @@ main {
     position: relative;
 }
 
-.course-type .content{
+.short-course .content{
     position: absolute;
     top: 25%;
     left: 2rem;
     width: 300px;
+}
+
+.open-creds .content{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    width: 300px;
+}
+
+.qualification .content{
+    position: absolute;
+    width: 300px;
+    top: 25%;
+    right: 2rem;
 }
 .course-type img{
     height: 80px;
