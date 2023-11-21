@@ -271,3 +271,33 @@ main {
 .short-course{
     /*background: #afafb1;*/
 }
+
+/*learn platform section*/
+.learn-platform{
+    display: flex;
+    justify-content: space-between;
+    margin: 6rem;
+}
+
+.lp-left{
+    width: 50%;
+}
+
+.lp-right{
+    width: 50%;
+    padding: 4rem;
+}
+
+.lp-right h4{
+    color: grey;
+    text-transform: uppercase;
+}
+.lp-right h2{
+    margin-bottom: 2rem;
+    font-size: 36px;
+}
+
+.lp-right p{
+    margin-bottom: 3rem;
+    line-height: 1.5;
+}
