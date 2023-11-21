@@ -254,8 +254,15 @@ main {
     display: flex;
     justify-content: space-between;
     gap: 2rem;
+    position: relative;
 }
 
+.course-type .content{
+    position: absolute;
+    top: 25%;
+    left: 2rem;
+    width: 300px;
+}
 .course-type img{
     height: 80px;
 }
