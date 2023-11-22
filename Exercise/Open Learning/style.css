@@ -457,7 +457,8 @@ padding: 0 2rem;
 
 /*course list section*/
 .course-list{
-    margin-top: 10rem;
+    margin-top: 15rem;
+    padding: 0 6rem;
 }
 .section-title{
     display: flex;
