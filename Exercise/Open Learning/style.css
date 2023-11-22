@@ -385,9 +385,11 @@ main {
     border-radius: 25px;
     position: relative;
 }
+.text{
+    width: 450px;
+}
+.text p:first-child{
 
-.text p{
-    width: 600px;
     font-size: 20px;
     line-height: 1.5;
 }
@@ -422,18 +424,16 @@ main {
     overflow: hidden;
     position: absolute;
     background: white;
-    top: 65%;
+    top: 30%;
     right: 10%;
     z-index: 10;
     box-shadow: 4px 0 6px rgba(0,0,0, 0.5);
 }
 
-.course-card h4{
-    padding: 1rem;
+.course-card h4,p{
+    padding: 1rem 2rem;
 }
-.course-card p{
-    padding: 1rem;
-}
+
 
 .title p{
     margin-left: 8rem;
@@ -448,7 +448,12 @@ main {
 
 .learners{
     display: flex;
-    gap: 1rem;
-    margin-left: 1rem;
+    /*gap: 1rem;*/
+    margin-left: 2rem;
     align-items: center;
+    justify-content: flex-start;
+}
+
+.learners p{
+    color: grey;
 }
