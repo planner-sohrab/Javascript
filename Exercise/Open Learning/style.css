@@ -428,10 +428,11 @@ main {
 
 .course-card h4,p{
     margin: 1rem 0.5rem;
-
 }
 
-
+.card-text{
+padding: 0 2rem;
+}
 .title p{
     margin-left: 8rem;
 }
@@ -440,7 +441,6 @@ main {
     position: absolute;
     top: 14rem;
     left: 2rem;
-
 }
 
 .learners{
