@@ -281,17 +281,6 @@ main {
     height: 80px;
 }
 
-/*.course-type > *{*/
-/*    border: 2px solid lime;*/
-/*}*/
-.courses-category{
-    /*border-top-right-radius: 100%;*/
-    /*border-bottom-right-radius: 100%;*/
-    /*padding: 4rem 2rem;*/
-}
-.short-course{
-    /*background: #afafb1;*/
-}
 
 /*learn platform section*/
 .learn-platform{
@@ -389,21 +378,28 @@ main {
     width: 450px;
 }
 .text p:first-child{
-
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
 }
 .user{
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
+    /*justify-content: center;*/
     margin-top: 2rem;
+}
+.user-id{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 .user h4{
     font-size: 20px;
 }
 .user p{
     margin-top: 0.5rem;
+    padding: 0;
 }
 .user img{
     width: 80px;
@@ -413,8 +409,8 @@ main {
 
 .background{
     position: absolute;
-    left: -12%;
-    top: -25%;
+    left: -15%;
+    top: -10%;
     z-index: -1;
 }
 
@@ -425,21 +421,20 @@ main {
     position: absolute;
     background: white;
     top: 30%;
-    right: 13%;
+    right: 10%;
     z-index: 10;
-    box-shadow: 4px 0 10px rgba(0,0,0, 0.4);
+    box-shadow: 4px 0 6px rgba(0,0,0, 0.5);
 }
 
-.course-card h4{
-    padding: 1rem;
-}
-.course-card p{
-    padding: 1rem;
+.course-card h4,p{
+    margin: 1rem 0.5rem;
 }
 
+.card-text{
+padding: 0 2rem;
+}
 .title p{
     margin-left: 8rem;
-    margin-bottom: 2rem;
 }
 .title img{
     width: 80px;
@@ -450,7 +445,58 @@ main {
 
 .learners{
     display: flex;
-    gap: 1rem;
-    margin-left: 1rem;
+    /*gap: 1rem;*/
+    margin-left: 2rem;
     align-items: center;
+    justify-content: flex-start;
+}
+
+.learners p{
+    color: grey;
+}
+
+/*course list section*/
+.course-list{
+    margin-top: 15rem;
+    padding: 0 6rem;
+}
+.section-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*cards*/
+.grid{
+    display: grid;
+    margin-top: 2rem;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+.course-list-card{
+
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 4px 0 20px rgba(0,0,0,0.4);
+}
+.provider{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.provider img{
+    width: 80px;
+}
+
+.provider h4{
+    color: grey;
+}
+
+.card-text{
+    padding: 1rem;
+}
+
+.btn-enrol{
+    text-align: right;
+    padding: 2rem;
 }
