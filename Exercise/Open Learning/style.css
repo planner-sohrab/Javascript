@@ -464,3 +464,39 @@ padding: 0 2rem;
     display: flex;
     justify-content: space-between;
 }
+
+/*cards*/
+.grid{
+    display: grid;
+    margin-top: 2rem;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+.course-list-card{
+
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 4px 0 20px rgba(0,0,0,0.4);
+}
+.provider{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.provider img{
+    width: 80px;
+}
+
+.provider h4{
+    color: grey;
+}
+
+.card-text{
+    padding: 1rem;
+}
+
+.btn-enrol{
+    text-align: right;
+    padding: 2rem;
+}
