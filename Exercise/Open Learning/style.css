@@ -281,17 +281,6 @@ main {
     height: 80px;
 }
 
-/*.course-type > *{*/
-/*    border: 2px solid lime;*/
-/*}*/
-.courses-category{
-    /*border-top-right-radius: 100%;*/
-    /*border-bottom-right-radius: 100%;*/
-    /*padding: 4rem 2rem;*/
-}
-.short-course{
-    /*background: #afafb1;*/
-}
 
 /*learn platform section*/
 .learn-platform{
@@ -438,19 +427,20 @@ main {
 }
 
 .course-card h4,p{
-    padding: 1rem 2rem;
+    margin: 1rem 0.5rem;
+
 }
 
 
 .title p{
     margin-left: 8rem;
-    margin-bottom: 2rem;
 }
 .title img{
     width: 80px;
     position: absolute;
     top: 14rem;
     left: 2rem;
+
 }
 
 .learners{
@@ -463,4 +453,13 @@ main {
 
 .learners p{
     color: grey;
+}
+
+/*course list section*/
+.course-list{
+    margin-top: 10rem;
+}
+.section-title{
+    display: flex;
+    justify-content: space-between;
 }
