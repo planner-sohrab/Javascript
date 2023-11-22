@@ -389,15 +389,20 @@ main {
     width: 450px;
 }
 .text p:first-child{
-
     font-size: 20px;
     line-height: 1.5;
 }
 .user{
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
+    /*justify-content: center;*/
     margin-top: 2rem;
+}
+.user-id{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 .user h4{
     font-size: 20px;
