@@ -22,6 +22,7 @@ body{
 
 a{
     text-decoration: none;
+    color: #000000;
 }
 ul{
     list-style-type: none;
@@ -47,4 +48,19 @@ ul{
     color: var(--color-primary);
     background: var(--color-secondary);
     border: 2px solid var(--color-primary);
+}
+
+.wrapper{
+    margin: 2rem 10rem;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    gap: 2rem;
 }
