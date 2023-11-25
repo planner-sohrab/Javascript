@@ -29,10 +29,11 @@ ul{
     list-style-type: none;
 }
 
+
 .btn {
     outline: none;
     border-radius: 25px;
-    padding: 1rem;
+    padding: 0.8rem 1rem;
 }
 
 .btn-primary{
@@ -83,10 +84,46 @@ main{
     clip-path: polygon(0 0, 100% 0%, 100% 67%, 0% 100%);
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(229,243,255,1) 100%, rgba(0,212,255,1) 100%);
     margin: 4rem 0;
-    padding:  4rem 0;
+    padding:  2rem 0;
+}
+.hero{
+    display: flex;
 }
 
+.hero-left{
+    width: 50%;
+}
+
+.hero-left h1{
+    font-size: 3.7rem;
+    padding-right: 2rem;
+}
+
+.hero-left p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.hero-btngrp{
+    padding: 1rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.hero-right{
+    width: 50%;
+    padding: 4rem;
+}
+.hero-right img{
+    width: 100%;
+}
 .btn-version{
     background: var(--color-accent);
     width: 15rem;
+    color: var(--color-primary);
+}
+
+.btn-version a{
+    text-decoration: underline;
+    color: var(--color-primary);
 }
