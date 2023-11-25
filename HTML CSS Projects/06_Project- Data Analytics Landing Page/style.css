@@ -51,6 +51,9 @@ ul{
     background: var(--color-secondary);
     border: 2px solid var(--color-primary);
 }
+.btn-accent{
+    background: var(--color-accent);
+}
 
 
 
@@ -127,3 +130,20 @@ main{
     text-decoration: underline;
     color: var(--color-primary);
 }
+
+/*insight section*/
+.insight{
+    margin: 0 auto;
+    text-align: center;
+}
+.wrapper .why{
+    text-align: center;
+    display: inline-block;
+    color: var(--color-primary);
+}
+.insight-category{
+    display: flex;
+    margin-top: 2rem;
+    gap: 3rem;
+}
+
