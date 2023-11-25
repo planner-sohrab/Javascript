@@ -1,6 +1,7 @@
 :root{
     --color-primary: #7633D2;
     --color-secondary: white;
+    --color-accent: #F7F1FF;
 }
 
 html{
@@ -50,6 +51,10 @@ ul{
     border: 2px solid var(--color-primary);
 }
 
+.btn-version{
+    background: var(--color-accent);
+}
+
 .wrapper{
     margin: 2rem 10rem;
 }
@@ -60,6 +65,15 @@ nav{
     justify-content: space-between;
 }
 
+nav select {
+    border: none;
+    font-size: 1rem;
+}
+
+/*nav select option{*/
+/*    border: none;*/
+/*    outline: none;*/
+/*}*/
 nav ul{
     display: flex;
     gap: 2rem;
@@ -71,5 +85,5 @@ main{
     clip-path: polygon(0 0, 100% 0%, 100% 67%, 0% 100%);
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(229,243,255,1) 100%, rgba(0,212,255,1) 100%);
     margin: 4rem 0;
-    padding:  0;
+    padding:  4rem 0;
 }
