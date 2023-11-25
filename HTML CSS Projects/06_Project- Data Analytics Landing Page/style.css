@@ -51,9 +51,7 @@ ul{
     border: 2px solid var(--color-primary);
 }
 
-.btn-version{
-    background: var(--color-accent);
-}
+
 
 .wrapper{
     margin: 2rem 10rem;
@@ -86,4 +84,9 @@ main{
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(229,243,255,1) 100%, rgba(0,212,255,1) 100%);
     margin: 4rem 0;
     padding:  4rem 0;
+}
+
+.btn-version{
+    background: var(--color-accent);
+    width: 15rem;
 }
