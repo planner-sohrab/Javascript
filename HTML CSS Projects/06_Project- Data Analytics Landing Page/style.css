@@ -53,6 +53,7 @@ ul{
 }
 .btn-accent{
     background: var(--color-accent);
+    color: var(--color-primary);
 }
 
 
@@ -151,3 +152,9 @@ main{
 }
 
 /*Product team section*/
+.product-team-flex, .engineering-team-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+}
