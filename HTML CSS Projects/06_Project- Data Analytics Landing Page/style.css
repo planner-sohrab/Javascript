@@ -152,9 +152,16 @@ main{
 }
 
 /*Product team section*/
-.product-team-flex, .engineering-team-flex{
+.product-team-flex{
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 4rem;
+}
+
+.engineering-team-flex{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    justify-content: space-between;
 }
