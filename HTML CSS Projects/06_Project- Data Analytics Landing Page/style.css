@@ -2,6 +2,7 @@
     --color-primary: #7633D2;
     --color-secondary: white;
     --color-accent: #F7F1FF;
+    --color-text: #777777;
 }
 
 html{
@@ -148,7 +149,7 @@ main{
     gap: 3rem;
 }
 .insight p{
-    color: #777777;
+    color: var(--color-text);
 }
 
 /*Product team section*/
@@ -165,6 +166,12 @@ main{
 .pt-right{
     width: 50%;
 }
+
+.pt-right p, .pe-left p{
+    line-height: 1.5;
+    color: var(--color-text);
+}
+
 .pt-btn{
     /*display: inline-block;*/
     display: inline-flex;
