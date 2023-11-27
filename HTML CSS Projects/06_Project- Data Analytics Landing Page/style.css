@@ -194,6 +194,8 @@ main{
 
 /*CTO section*/
 .cto{
-    clip-path: polygon(100% 0, 100% 60%, 0 100%, 0 39%);
+    clip-path: polygon(100% 0, 100% 69%, 0 91%, 0 21%);
     background: linear-gradient(180deg, rgba(252,248,255,1) 0%, rgba(243,248,255,1) 100%);
+    padding: 5rem 0;
+    text-align: center;
 }
