@@ -158,7 +158,12 @@ main{
     justify-content: space-between;
     gap: 4rem;
 }
-
+.pt-btn{
+    /*display: inline-block;*/
+    display: inline-flex;
+    align-items: center;
+    gap: 0.8rem;
+}
 .engineering-team-flex{
     display: flex;
     align-items: center;
