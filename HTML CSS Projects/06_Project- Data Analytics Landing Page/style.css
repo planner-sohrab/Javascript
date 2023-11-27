@@ -280,7 +280,38 @@ blockquote h3{
 }
 
 .signup-right input{
-    display: block;
+
+    padding: 0.5rem;
+}
+.link-text{
+    color: var(--color-primary);
+}
+
+.signup h2{
+    margin-bottom: 2rem;
+}
+.signup-btn{
+    background: var(--color-primary);
+    color: var(--color-secondary);
+    padding: 1rem 4rem;
+    border-radius: 5px;
+}
+
+.signup form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 260px;
+    margin: 2rem auto;
+}
+
+.signup p, a{
+    font-size: 0.9rem;
+}
+
+
+.have-account{
+    color: var(--color-text);
 }
 
 /*Footer*/
