@@ -191,3 +191,9 @@ main{
 .pe-right{
     width: 50%;
 }
+
+/*CTO section*/
+.cto{
+    clip-path: polygon(100% 0, 100% 60%, 0 100%, 0 39%);
+    background: linear-gradient(180deg, rgba(252,248,255,1) 0%, rgba(243,248,255,1) 100%);
+}
