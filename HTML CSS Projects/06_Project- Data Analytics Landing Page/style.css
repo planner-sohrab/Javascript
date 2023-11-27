@@ -158,6 +158,13 @@ main{
     justify-content: space-between;
     gap: 4rem;
 }
+
+.pt-left{
+    width: 50%;
+}
+.pt-right{
+    width: 50%;
+}
 .pt-btn{
     /*display: inline-block;*/
     display: inline-flex;
@@ -169,4 +176,11 @@ main{
     align-items: center;
     gap: 4rem;
     justify-content: space-between;
+}
+
+.pe-left{
+    width: 50%;
+}
+.pe-right{
+    width: 50%;
 }
