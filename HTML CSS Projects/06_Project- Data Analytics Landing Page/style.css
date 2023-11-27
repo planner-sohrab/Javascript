@@ -282,3 +282,52 @@ blockquote h3{
 .signup-right input{
     display: block;
 }
+
+/*Footer*/
+footer{
+    background: #fbfcff;
+    display: flex;
+    padding: 4rem 10rem;
+}
+
+footer p{
+    font-size: 0.8rem;
+    color: var(--color-text);
+    line-height: 1.5;
+}
+
+.logo{
+    width: 20%;
+}
+.links{
+    display: flex;
+    width: 80%;
+}
+
+.links a{
+    font-size: 0.8rem;
+    color: var(--color-text);
+}
+
+.links li:first-child{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.newsletter{
+    position: relative;
+    background: var(--color-secondary);
+
+}
+
+.newsletter img{
+    position: absolute;
+    right: 10%;
+    top: 5px;
+}
+
+.newsletter input{
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+}
