@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    font-family: "Arial", "Calibri", sans-serif;
+    background: #1FAC6F;
+}
+
+h1{
+    background: teal;
+    padding: 1rem;
+    color: white;
+    font-size: 3rem;
+}
+
+.day{
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
