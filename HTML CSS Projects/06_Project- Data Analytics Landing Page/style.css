@@ -231,3 +231,28 @@ blockquote h3{
     margin-bottom: 6rem;
     padding: 2rem;
 }
+
+/*Signup Section*/
+.signup-flex{
+    display: flex;
+}
+
+.signup-left{
+    width: 50%;
+}
+
+.signup-right{
+    width: 50%;
+}
+.trusted{
+    display: flex;
+}
+.hr{
+    /*display: inline-block;*/
+    border: 1px solid grey;
+    width: 6rem;
+}
+.signup .logos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
