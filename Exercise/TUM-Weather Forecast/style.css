@@ -1,26 +1,19 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    background-color: #45b29d;
     text-align: center;
 }
 
-body{
-    font-family: "Arial", "Calibri", sans-serif;
-    background: #1FAC6F;
-}
 
 h1{
-    background: teal;
-    padding: 1rem;
+    background-color: rgb(50,50,50);
     color: white;
-    font-size: 3rem;
 }
 
-.day{
-    margin-top: 0.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 4rem;
+p{
+    font-size: xx-large;
+}
+
+h5{
+    color: #fff;
+    font-size: large;
 }

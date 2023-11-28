@@ -1,0 +1,24 @@
+*{
+    background-color: #45b29d;
+    text-align: center;
+}
+
+
+h1{
+    background-color: rgb(50,50,50);
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li:nth-of-type(odd){
+    background-color: #358b7c;
+}
+
+li:nth-of-type(even){
+    background-color: #3b9b89;
+}
+
+
