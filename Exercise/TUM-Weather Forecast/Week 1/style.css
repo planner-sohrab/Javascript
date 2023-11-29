@@ -27,7 +27,16 @@ button {
 }
 
 /*App Bar*/
+.headbar{
+    display: flex;
+    align-items: center;
+    background: teal;
+    color: white;
 
+}
+.headbar img{
+    height: 56px;
+}
 /*Channels list*/
 
 /*Messages*/
