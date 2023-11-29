@@ -53,4 +53,31 @@ button {
 .chat-title{
     background: #e6e5e5;
 }
+.channel-category{
+    padding: 0.5rem;
+    text-transform: uppercase;
+    font-size: small;
+}
+.channel-list{
+    list-style-type: none;
+}
+
+.channel-list li{
+    padding: 1rem;
+    /*margin-bottom: 1rem;*/
+}
+
+.time{
+    font-size: small;
+}
+.channel-name{
+
+}
+
+.active{
+    background: #e6e5e5;
+    border-right: 3px solid teal;
+}
+
 /*Messages*/
+
