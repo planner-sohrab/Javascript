@@ -75,3 +75,18 @@ h2{
     background-color: #eeeeee;
     border-right: 3px solid #00838f;
 }
+
+/*Messages*/
+#message-area h1{
+    display: inline;
+}
+
+.message{
+    width: 75%;
+}
+
+.message-content {
+    padding: 11px;
+    margin: 10px 11px;
+    text-align: left;
+}
