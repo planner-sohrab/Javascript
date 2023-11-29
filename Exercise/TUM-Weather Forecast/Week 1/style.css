@@ -27,6 +27,16 @@ button {
 }
 
 /*App Bar*/
+.app{
+    display: flex;
+}
+#app-bar{
+    width: 30%;
+}
+
+#chat{
+    width: 70%;
+}
 .headbar{
     display: flex;
     align-items: center;
@@ -40,5 +50,7 @@ button {
     background: #00838f;
 }
 /*Channels list*/
-
+.chat-title{
+    background: #e6e5e5;
+}
 /*Messages*/
