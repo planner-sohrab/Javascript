@@ -30,12 +30,14 @@ button {
 .headbar{
     display: flex;
     align-items: center;
-    background: teal;
+    background: #e6e5e5;
     color: white;
+    gap: 1rem;
 
 }
 .headbar img{
     height: 56px;
+    background: #00838f;
 }
 /*Channels list*/
 
