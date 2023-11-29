@@ -1,0 +1,77 @@
+*{
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+section{
+    position: fixed;
+    top: 0;
+    height: 100vh;
+}
+#channel-area{
+    width: 399px;
+    height: 100vh;
+    border-right: 1px solid rgb(199, 199, 199);
+}
+#message-area{
+    width: calc(100% - 400px);
+    left: 400px;
+}
+
+/*APP BAR*/
+.headbar{
+    background-color: #eeeeee;
+    color: #00838f;
+    height: 66px;
+    line-height: 66px;
+    padding: 0 22px 0 22px;
+}
+
+.headbar img{
+    background-color: #00838f;
+}
+
+#app-title{
+    color: #00838f;
+}
+h1{
+    font-size: 18px;
+}
+.headbar{
+    line-height: 66px;
+}
+#logo{
+    height: 44px;
+}
+
+/* CHANNELS LIST */
+h2{
+    color: #00838f;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin: 22px 22px 11px 11px;
+}
+
+.channel-list{
+    background-color: white;
+    list-style-type: none;
+}
+
+.channel-list li{
+    box-sizing: border-box;
+    padding: 22px;
+    height: 66px;
+}
+
+.channel-list li.selected{
+    background-color: #eeeeee;
+    border-right: 3px solid #00838f;
+}
