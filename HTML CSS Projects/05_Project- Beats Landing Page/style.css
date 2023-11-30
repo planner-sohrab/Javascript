@@ -46,3 +46,41 @@ nav a{
     z-index: -1;
 }
 
+.overview{
+    position: absolute;
+    right: 15%;
+}
+
+.onear-image{
+    position: absolute;
+    left: 3rem;
+}
+
+.overview h1{
+    margin-top: 7rem;
+    font-size: 54px;
+    margin-bottom: 2rem;
+}
+
+.overview h2{
+    font-size: 26px;
+    margin-bottom: 2rem;
+}
+
+.overview p{
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+.overview a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn-add-to-bag {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.text-bold{
+    font-weight: bold;
+}
