@@ -39,5 +39,9 @@ nav a{
     border-radius: 5px;
 }
 
-.
+.main-image{
+    position: absolute;
+    top: -80%;
+    left: 30%;
+}
 
