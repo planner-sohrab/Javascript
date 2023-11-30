@@ -18,7 +18,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
+    padding: 2rem 10rem;
 }
 
 nav ul{
@@ -34,14 +34,15 @@ nav a{
 }
 
 .btn{
-    background: #5b4444;
+    background: #302F31;
     padding: 0.8rem 1.5rem;
     border-radius: 5px;
 }
 
 .main-image{
-    position: absolute;
-    top: -80%;
+    position: fixed;
+    top: -30%;
     left: 30%;
+    z-index: -1;
 }
 
