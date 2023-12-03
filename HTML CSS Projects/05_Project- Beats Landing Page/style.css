@@ -207,3 +207,37 @@ nav a{
     align-items: center;
     gap: 1rem;
 }
+
+/*Choose style section*/
+.choose-style{
+    padding: 6rem 10rem;
+    display: grid;
+    row-gap: 6rem;
+    /*align-content: center ;*/
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card{
+    background: #181A1B;
+    width: 180px;
+    height: 180px;
+
+    position: relative;
+    border-radius: 10px;
+}
+
+.card-header{
+    position: relative;
+    top: -20%;
+    left: 25%;
+}
+
+.card-header img{
+    height: 100px;
+}
+
+.card-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
