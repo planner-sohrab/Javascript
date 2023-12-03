@@ -213,18 +213,19 @@ nav a{
     text-align: center;
 }
 .shop-items{
-    padding: 6rem 10rem;
+    width: 700px;
+    margin: 4rem auto;
+    /*padding: 6rem 10rem;*/
     display: grid;
-    row-gap: 6rem;
+    grid-gap: 4rem;
     /*align-content: center ;*/
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: auto auto auto;
 }
 
 .card{
     background: #181A1B;
     width: 180px;
     height: 180px;
-
     position: relative;
     border-radius: 10px;
 }
