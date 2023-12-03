@@ -40,8 +40,8 @@ nav a{
 }
 
 .main-image{
-    position: fixed;
-    top: -30%;
+    position: absolute;
+    top: -10%;
     left: 20%;
     z-index: -1;
 }
@@ -84,10 +84,54 @@ nav a{
     font-weight: bold;
 }
 
+/*Icons section*/
 .icons{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8rem;
     margin-top: 6rem;
+}
+
+/*Specs Section*/
+.specs{
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.spec-image{
+    margin-bottom: 4rem;
+}
+
+.spec-container{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.feature{
+    text-align: left;
+}
+.feature h3{
+    font-size: smaller;
+    margin-top: 0.3rem;
+}
+.feature p{
+    font-size: smaller;
+    margin-top: 0.3rem;
+    opacity: 0.7;
+}
+
+.feature img{
+    height: 20px;
+}
+
+.spec-left{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.spec-left .feature:first-child, .feature:last-child{
+    padding-left: 1.5rem;
 }
