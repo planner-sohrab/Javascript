@@ -37,6 +37,8 @@ nav a{
     background: #302F31;
     padding: 0.8rem 1.5rem;
     border-radius: 5px;
+    text-decoration: none;
+    color: white;
 }
 
 .main-image{
@@ -134,4 +136,10 @@ nav a{
 
 .spec-left .feature:first-child, .feature:last-child{
     padding-left: 1.5rem;
+}
+
+/*case section*/
+.case{
+    margin: 4rem auto;
+    text-align: center;
 }
