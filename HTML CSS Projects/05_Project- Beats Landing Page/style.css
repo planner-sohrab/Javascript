@@ -209,7 +209,10 @@ nav a{
 }
 
 /*Choose style section*/
-.choose-style{
+.choose-style-heading{
+    text-align: center;
+}
+.shop-items{
     padding: 6rem 10rem;
     display: grid;
     row-gap: 6rem;
