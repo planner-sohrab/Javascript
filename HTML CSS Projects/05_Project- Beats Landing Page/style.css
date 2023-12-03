@@ -171,3 +171,39 @@ nav a{
 .case-right{
     text-align: left;
 }
+
+/*Buynow Section*/
+.buynow{
+    background:#181A1B;
+    margin: 4rem 10rem;
+    border-radius: 10px;
+    padding: 2rem 4rem;
+}
+
+.buynow-container{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.buynow-left h2{
+    width: 200px ;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.buynow-left p{
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+}
+
+.btn-secondary{
+    background: #000000;
+    outline: none;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+}
