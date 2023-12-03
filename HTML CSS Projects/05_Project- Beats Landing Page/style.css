@@ -49,19 +49,11 @@ nav a{
 /*Hero section*/
 .hero{
     position: relative;
-    border: 1px solid lime;
 }
 .overview{
-    position: absolute;
-    right: 15%;
-    border: 1px solid red;
+    position: relative;
+    left: 50%;
 }
-
-/*.onear-image{*/
-/*    border: 1px solid gold;*/
-/*    position: absolute;*/
-/*    left: 3rem;*/
-/*}*/
 
 .overview h1{
     margin-top: 7rem;
@@ -90,4 +82,12 @@ nav a{
 
 .text-bold{
     font-weight: bold;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    margin-top: 6rem;
 }
