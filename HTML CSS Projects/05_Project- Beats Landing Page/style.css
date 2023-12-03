@@ -140,7 +140,7 @@ nav a{
 
 /*case section*/
 .case{
-    margin: 4rem auto;
+    margin: 6rem auto;
     text-align: center;
 }
 
@@ -162,5 +162,12 @@ nav a{
     display: inline-flex;
     align-items: center;
     gap: 1rem;
+}
 
+.case-image{
+    margin-bottom: 4rem;
+}
+
+.case-right{
+    text-align: left;
 }
