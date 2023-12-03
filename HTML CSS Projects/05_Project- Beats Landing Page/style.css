@@ -143,3 +143,24 @@ nav a{
     margin: 4rem auto;
     text-align: center;
 }
+
+.case-container {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;
+}
+
+.case-right p {
+    width: 250px;
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.btn-more-info{
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+
+}
