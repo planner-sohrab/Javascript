@@ -262,3 +262,57 @@ nav a{
 }
 
 /*footer section*/
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin: 8rem;
+}
+
+footer ul{
+    list-style-type: none;
+    margin-bottom: 2rem;
+}
+
+footer ul li:first-child{
+    font-weight: bold ;
+    margin-bottom: 1rem;
+}
+footer ul li{
+    margin-bottom: 0.3rem;
+}
+footer  a{
+    text-decoration: none;
+    color: #fff;
+    font-size: smaller;
+    opacity: 0.7;
+
+}
+
+.subscribe-div{
+    background: #181A1B;
+    padding: 0.5rem;
+    border-radius: 5px;
+
+}
+
+.subscribe-div input{
+    background: #181A1B;
+    border: none;
+    outline: none;
+}
+
+.subscribe{
+    background: #000;
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    display: inline-flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.social-icons{
+    display: flex;
+}
