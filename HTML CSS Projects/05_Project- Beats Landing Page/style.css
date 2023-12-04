@@ -316,5 +316,6 @@ footer  a{
 .social-icons{
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
+    margin-top: 1rem;
 }
