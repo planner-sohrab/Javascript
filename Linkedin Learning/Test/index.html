@@ -14,9 +14,11 @@
 
 <script>
     const fruits = ["Apple", "Banana", "Mango", "Papaya", "Orange"];
-    const content = fruits.map(item => {
-        console.log(item)
+
+    const content = fruits.map(fruit => {
+        <li>${fruit}</li>
     });
+    console.log(content);
 
     let name = `Subha`;
     document.querySelector("#title").innerHTML = `${name}`;
