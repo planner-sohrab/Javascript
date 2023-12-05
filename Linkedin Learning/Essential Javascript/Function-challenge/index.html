@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="script.js"></script>
+<script>
+    // This is how your code will be called.
+    // Your answer should be the HTML output described in the challenge text.
+    // You can edit this code to try different testing cases.
+    const backpacksMarkupArray = createBackpackMarkup(document)
+    // Combine the array items into a single output.
+    const result = backpacksMarkupArray.reduce((combinedHTML, backpack) => {
+        return combinedHTML + backpack.outerHTML;
+    }, '');
+</script>
+</body>
+</html>
