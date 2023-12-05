@@ -1,3 +1,7 @@
+:root{
+    --primary-color: #088BFD;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +12,26 @@ body{
     font-family: SageUI, sans-serif;
 }
 
+.btn{
+    border: none;
+    padding: 0.8rem 1.2rem;
+    border-radius: 25px;
+    font-size: 1rem;
+}
+
+.btn-primary{
+    color: #fff;
+    background: var(--primary-color);
+}
+
+.btn-outline{
+    color: #fff;
+    background: #000;
+    border: 1px solid #fff;
+    /*outline: 1px solid #fff;*/
+}
+
+/*Navigation bar*/
 nav{
     display: flex;
     align-items: center;
@@ -28,14 +52,31 @@ ul a{
     color: #fff;
 }
 
-.btn{
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 25px;
-    font-size: 1rem;
+/*Hero section*/
+main{
+    background: #000;
+    display: flex;
 }
 
-.btn-primary{
+.hero-left h1{
     color: #fff;
-    background: #088BFD;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.blue-text{
+    color: var(--primary-color);
+}
+
+.hero-left p{
+    color: #fff;
+    opacity: 0.7;
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+
+.buttons{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 0;
 }
