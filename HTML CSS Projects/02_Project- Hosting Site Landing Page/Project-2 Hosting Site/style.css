@@ -61,11 +61,11 @@ main{
 }
 
 .hero-left{
-    width: 450px;
+    width: 500px;
 }
 .hero-left h1{
     color: #fff;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
 }
 
@@ -84,6 +84,7 @@ main{
     display: flex;
     gap: 2rem;
     padding: 2rem 0;
+    margin-top: 1rem;
 }
 
 .hero-right img{
