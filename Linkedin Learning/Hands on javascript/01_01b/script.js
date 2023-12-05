@@ -7,8 +7,17 @@
 
 import data from "./data.js";
 
-const mainContent =document.querySelector(".main-content");
+const mainContent = document.querySelector(".main-content");
 
+const getDate = (imgData) => {
+    const date = new Date(imgData.created_at);
+    const niceDate = date.toLocaleString("default", {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+    });
+    return niceDate;
+}
 const Card = (data) => {
     const imgData = data[0];
 
@@ -21,10 +30,10 @@ const Card = (data) => {
             
             sizes="(max-width=450px) 400px, (max-width:800) 1080px"
             src="${imgData.urls.regular}"
-            width="${imgData.width}"
+            ${imgData.width}
             height="${imgData.height}"
             alt="${imgData.description}"
-             loading="lazy" />
+             width="EXTERNAL_FRAGMENT"loading="lazy" />
              
              <figcaption class="image__caption">
              <h3 class="image__title">${imgData.description}</h3>
@@ -32,6 +41,7 @@ const Card = (data) => {
              <p>Photo by
              <span class="image__photog">${imgData.user.name}</span>
              </p>
+             <p>Upload on <time datetime="">${getDate(imgData)}</time></p>
              <p>
              <a href="${imgData.links.self}" class="image__link">View it on Unsplash</a>
 </p>
