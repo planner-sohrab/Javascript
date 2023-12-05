@@ -90,3 +90,13 @@ main{
 .hero-right img{
     height: 450px;
 }
+
+/*Icons section*/
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    padding: 2rem;
+
+}
