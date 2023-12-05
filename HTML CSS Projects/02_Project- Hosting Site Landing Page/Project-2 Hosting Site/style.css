@@ -56,8 +56,13 @@ ul a{
 main{
     background: #000;
     display: flex;
+    padding: 4rem 8rem;
+    gap: 8rem;
 }
 
+.hero-left{
+    width: 450px;
+}
 .hero-left h1{
     color: #fff;
     font-size: 3rem;
@@ -79,4 +84,8 @@ main{
     display: flex;
     gap: 2rem;
     padding: 2rem 0;
+}
+
+.hero-right img{
+    height: 500px;
 }
