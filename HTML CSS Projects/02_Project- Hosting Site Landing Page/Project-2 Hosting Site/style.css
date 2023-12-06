@@ -11,7 +11,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-
+h1{
+    font-size: 3.5rem;
+}
 h2{
     font-size: 3rem;
 }
@@ -73,7 +75,7 @@ main{
 }
 .hero-left h1{
     color: #fff;
-    font-size: 3.5rem;
+
     line-height: 1.5;
 }
 
@@ -243,4 +245,81 @@ main{
 .feature-contents-left .active{
     background: var(--primary-color);
     color: #fff;
+}
+
+/*Packages Section*/
+
+.packages{
+    padding: 4rem 8rem;
+    background: #000;
+    color: #fff;
+
+}
+
+.packages-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+.packages-cards-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2rem;
+}
+
+.packages-card{
+    border: 1px solid #999;
+    border-radius: 20px;
+    padding: 1rem;
+    width: 350px;
+    background: #f3f3f3;
+    color: #272727;
+}
+
+.packages-card ul{
+    list-style-type: none;
+}
+
+.card-heading h4{
+    font-weight: 600;
+}
+.card-heading span{
+    color: #999;
+    font-size: smaller;
+}
+
+hr{
+    margin: 2rem 0;
+}
+.packages-card li::before{
+    content: url("./assets/Icons/blue-tick.svg");
+    height: 10px;
+    padding: 0.5rem;
+}
+.packages-card li{
+    margin-bottom: 0.5rem;
+}
+
+.packages-card .btn{
+    width: 300px;
+    margin-top: 1rem;
+}
+
+.active-package{
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.active-package li::before{
+    content: url("./assets/Icons/white-tick.svg");
+    height: 10px;
+    padding: 0.5rem;
+}
+
+.active-package .btn{
+    background: #fff;
+    color: var(--primary-color);
 }
