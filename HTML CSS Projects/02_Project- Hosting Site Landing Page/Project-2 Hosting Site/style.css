@@ -176,3 +176,32 @@ main{
 .feature-details{
     padding: 4rem 8rem;
 }
+
+.feature-contents{
+    display: flex;
+}
+
+.feature-details-heading{
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+.feature-contents-left ul{
+    list-style-type: none;
+
+}
+.feature-contents-left li{
+    border: 1px solid #999;
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    align-items: center;
+    color: #555;
+}
+
+.feature-contents-left img{
+    height: 25px;
+}
