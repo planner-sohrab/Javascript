@@ -12,6 +12,14 @@ body{
     font-family: SageUI, sans-serif;
 }
 
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 2.5rem;
+}
+
 .btn{
     border: none;
     padding: 0.8rem 1.2rem;
@@ -112,7 +120,7 @@ main{
 }
 
 .feature-heading h2{
-    font-size: 3rem;
+
     margin-bottom: 2rem;
 }
 
@@ -164,3 +172,7 @@ main{
 }
 
 /*Feature details section*/
+
+.feature-details{
+    padding: 4rem 8rem;
+}
