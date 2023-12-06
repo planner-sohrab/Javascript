@@ -229,12 +229,18 @@ main{
     border-radius: 25px;
     font-size: 0.8rem;
     display: flex;
+    align-items: center;
+    gap: 0.8rem;
 }
 
 .dot{
     width: 10px;
     height: 10px;
-    color: #fff;
+    background-color: #fff;
     border-radius: 50%;
+}
 
+.active{
+    background: var(--primary-color);
+    color: #fff;
 }
