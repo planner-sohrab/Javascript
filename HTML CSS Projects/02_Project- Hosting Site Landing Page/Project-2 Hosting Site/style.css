@@ -240,7 +240,7 @@ main{
     border-radius: 50%;
 }
 
-.active{
+.feature-contents-left .active{
     background: var(--primary-color);
     color: #fff;
 }
