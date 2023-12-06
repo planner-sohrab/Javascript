@@ -9,7 +9,7 @@
 }
 
 body{
-    font-family: SageUI, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 h2{
@@ -179,18 +179,22 @@ main{
 
 .feature-contents{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
 }
 
 .feature-details-heading{
     padding: 1rem 0;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    width: 800px;
 }
 .feature-contents-left ul{
     list-style-type: none;
 
 }
 .feature-contents-left li{
-    border: 1px solid #999;
+    border: 1px solid #bbb;
     border-radius: 25px;
     padding: 0.5rem 1rem;
     font-size: 1rem;
@@ -199,9 +203,38 @@ main{
     font-weight: 600;
     margin-bottom: 1.5rem;
     align-items: center;
-    color: #555;
+    color: #333;
+    gap: 2rem;
 }
 
 .feature-contents-left img{
     height: 25px;
+}
+
+.feature-contents-right{
+    background: #000;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 20px;
+}
+.feature-contents-right ul{
+    list-style-type: none;
+
+}
+
+.feature-contents-right li{
+    padding: 0.5rem 1rem;
+    background-color: #3c3c3c;
+    margin-bottom: 0.5rem;
+    border-radius: 25px;
+    font-size: 0.8rem;
+    display: flex;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    color: #fff;
+    border-radius: 50%;
+
 }
