@@ -344,8 +344,42 @@ hr{
 .review-cards-container{
     display: grid;
     grid-template-columns: auto auto auto;
-
+    margin-top: 2rem;
+    grid-column-gap: 2rem;
+}
+.review-card{
+    border: 1px solid #999;
+    border-radius: 15px;
+    padding: 1rem;
 }
 
+.review-card p{
+    font-size: 0.9rem;
+}
+
+.active{
+    background: #000;
+    color: white;
+}
+
+.commenter{
+    margin-top: 1rem;
+}
+
+.commenter p{
+    font-size: 0.6rem;
+}
+.card-comment{
+    margin-top: 1rem;
+    /*margin-bottom: 1rem;*/
+}
+
+.rating{
+    margin-top: 1rem;
+}
+
+.card-image img{
+    height: 30px;
+}
 
 
