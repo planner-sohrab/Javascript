@@ -416,11 +416,13 @@ hr{
 /*Footer section*/
 footer{
     background: #000;
+    padding: 4rem 8rem;
 }
 .links{
     display: flex;
     justify-content: space-around;
     color: white;
+    margin: 1rem auto;
 }
 
 .links ul{
@@ -430,6 +432,7 @@ footer{
 .links a{
     text-decoration: none;
     color: white;
+    opacity: 0.7;
 }
 
 .links li:first-child{
@@ -438,7 +441,15 @@ footer{
 }
 
 .links li{
-
     margin-bottom: 0.4rem;
     font-size: 0.8rem;
+}
+
+hr{
+
+    opacity: 0.5;
+}
+
+footer img{
+    height: 40px;
 }
