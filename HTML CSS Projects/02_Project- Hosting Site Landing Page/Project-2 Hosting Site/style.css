@@ -323,3 +323,20 @@ hr{
     background: #fff;
     color: var(--primary-color);
 }
+
+/*Customer review section*/
+.customer-review{
+    margin: 4rem 8rem;
+}
+
+.customer-review-heading{
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}
+
+.customer-review-heading p{
+    /*padding-right: 6rem;*/
+    width: 400px;
+    opacity: 0.7;
+}
