@@ -388,10 +388,57 @@ hr{
     background: #0a0a0a;
     color: white;
     text-align: center;
+    padding: 4rem 8rem;
 }
+.signup h3{
 
+}
 .container{
     padding: 2rem;
-    background: #3c3c3c;
+    background: #2c2c2c;
     width: 800px;
+    margin: 2rem auto;
+    border-radius: 20px;
+}
+
+.inputs {
+    display: flex;
+    gap: 1rem;
+}
+
+.inputs input{
+    border-radius: 25px;
+    padding: 1rem;
+    background: #3c3c3c;
+    border: none;
+}
+
+/*Footer section*/
+footer{
+    background: #000;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.links ul{
+    list-style-type: none;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+}
+
+.links li:first-child{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.links li{
+
+    margin-bottom: 0.4rem;
+    font-size: 0.8rem;
 }
