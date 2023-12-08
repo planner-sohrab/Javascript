@@ -9,5 +9,5 @@ const fruitN02 = fruits.map((fruit) => {
     return ("This is :" + fruit);
 });
 
-console.log(fruitN01);
+// console.log(fruitN01);
 console.log(fruitN02);
