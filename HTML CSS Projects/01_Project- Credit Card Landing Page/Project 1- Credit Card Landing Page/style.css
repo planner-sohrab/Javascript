@@ -262,8 +262,9 @@ main h2{
 .take-action{
     position: relative;
     margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 10rem;
 }
+
 
 .rectangle-left{
     position: absolute;
@@ -298,7 +299,7 @@ main h2{
     color: black;
 }
 .take-action-text h1{
-    font-size: 70px;
+    font-size: 3.5rem;
 }
 
 .get-started-btn{
@@ -306,7 +307,7 @@ main h2{
 }
 
 footer{
-    margin-top: 35rem;
+    margin-top: 40rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
