@@ -1,10 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Responsive Testimonial Slider</title>
+    <title>review carousel using JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
-<body>
 
-</body>
+<div class="review">
+    <div class="review__items">
+        <img src=
+                     "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png" />
+        <h1>GeeksforGeeks</h1>
+        <p>
+            Let's learn to create a review
+            carousel using JavaScript.
+        </p>
+    </div>
+    <div class="review__items">
+        <img src=
+                     "https://media.geeksforgeeks.org/wp-content/uploads/20210101144014/gfglogo.png" />
+        <h1>Geek Here</h1>
+        <p>
+            Very useful site to learn cool
+            stuff. Improve your skills
+        </p>
+    </div>
+    <div class="review__items">
+        <img src=
+                     "https://media.geeksforgeeks.org/img-practice/courses/GfG_Logo.png" />
+        <h1>Hello there!</h1>
+        <p>
+            Have a nice day, Please visit
+            us again. Nice to meet you.
+        </p>
+    </div>
+    <div class="review__button">
+        <button id="prev" onclick="previousReview()">
+            PREV
+        </button>
+
+        <button id="next" onclick="nextReview()">
+            NEXT
+        </button>
+    </div>
+</div>
 </html>
