@@ -10,7 +10,11 @@ output.style.borderRadius = '25px';
 output.style.paddingLeft = "1rem";
 
 
-
+const el = output.style;
+console.log(el);
+el.textAlign = 'center';
+el.textTransform = 'uppercase';
+el.margin ='25px';
 
 
 
