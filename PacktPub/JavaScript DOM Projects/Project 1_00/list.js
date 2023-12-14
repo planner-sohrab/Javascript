@@ -43,7 +43,7 @@ function addUserName(userName) {
     });
 
     spanDelete.addEventListener('click', (e) => {
-        console.log(delete);
+        console.log('delete');
     })
     return li;
 }
