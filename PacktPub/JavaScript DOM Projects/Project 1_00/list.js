@@ -38,6 +38,13 @@ function addUserName(userName) {
     const spanDelete = createMyElement(innerDiv, 'span', 'deletor');
     spanDelete.textContent = 'Delete';
 
+    spanEdit.addEventListener('click', (e) => {
+        console.log('edit');
+    });
+
+    spanDelete.addEventListener('click', (e) => {
+        console.log(delete);
+    })
     return li;
 }
 
