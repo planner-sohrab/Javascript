@@ -26,14 +26,20 @@
     function random(number) {
         return Math.floor(Math.random() * (number + 1));
     }
-
-    btn.addEventListener('click', bodyBg)
-
     const bodyBg = function () {
-        document.body.style.backgroundColor = `
+        return document.body.style.backgroundColor = `
         rgb(${random(255)}, ${random(255)}, ${random(255)})
         `;
     }
+    const bgSelf = function () {
+        return btn.style.backgroundColor = `
+        rgb(${random(255)}, ${random(255)}, ${random(255)})
+        `;
+    }
+
+    btn.addEventListener('click', bodyBg);
+    btn.addEventListener('click', bgSelf);
+
 
 </script>
 </body>
