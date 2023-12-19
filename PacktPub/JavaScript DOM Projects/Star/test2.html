@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            display: flex;
+            justify-content: center;
+        }
+
+        .btn {
+            padding: 1rem;
+            border-radius: 25px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <button class="btn">Click to change BG</button>
+</div>
+
+<script>
+    const btn = document.querySelector('button');
+
+    function random(number) {
+        return Math.floor(Math.random() * (number + 1));
+    }
+
+    btn.addEventListener('click', bodyBg)
+
+    const bodyBg = function () {
+        document.body.style.backgroundColor = `
+        rgb(${random(255)}, ${random(255)}, ${random(255)})
+        `;
+    }
+
+</script>
+</body>
+</html>
