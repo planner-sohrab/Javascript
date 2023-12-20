@@ -6,6 +6,7 @@
     <style>
         .lds-spinner{
             color: official;
+            background-color: #0d314b;
             display: inline-block;
             position: relative;
             width: 80px;
@@ -86,6 +87,12 @@
         .lds-spinner div:nth-child(12){
             transform: rotate(330deg);
             animation-delay: 0s;
+        }
+
+        @keyframes lds-spinner {
+            0%{
+                opacity: 1;
+            }
         }
     </style>
 </head>
