@@ -16,7 +16,6 @@
 
         .lds-spinner div{
             transform-origin: 40px 40px;
-            border: 1px solid green;
             animation: lds-spinner 1.2s linear infinite;
         }
 
@@ -92,6 +91,9 @@
         @keyframes lds-spinner {
             0%{
                 opacity: 1;
+            }
+            100%{
+                opacity: 0;
             }
         }
     </style>
