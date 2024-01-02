@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Container and Spacing</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<!--Container-->
+<div class="container mx-auto">
+  <article>
+    <h3>Article One</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur at aut distinctio est, fugit in inventore ipsum modi officia quas quia quos repellat reprehenderit saepe tempora? Asperiores dolorem inventore vel.</p>
+  </article>
+</div>
+
+<!--Margin-->
+<div class="bg-slate-100 m-2">Hello World</div>
+<div class="bg-slate-100 ml-2">Hello World</div>
+<div class="bg-slate-100 mr-2">Hello World</div>
+<div class="bg-slate-100 mt-2">Hello World</div>
+<div class="bg-slate-100 mb-2">Hello World</div>
+<div class="bg-slate-100 mt-[20px]">Hello World</div>
+
+<!--Padding-->
+<div class="bg-slate-100 p-2">Hello World</div>
+<div class="bg-slate-100 pl-2">Hello World</div>
+<div class="bg-slate-100 pr-2">Hello World</div>
+<div class="bg-slate-100 pt-2">Hello World</div>
+<div class="bg-slate-100 pb-2">Hello World</div>
+<div class="bg-slate-100 pt-[20px]">Hello World</div>
+<!--Space Between X-->
+<div class="flex mt-24 space-x-4">
+  <div>Item 1</div>
+  <div>Item 2</div>
+  <div>Item 3</div>
+  <div>Item 4</div>
+  <div>Item 5</div>
+</div>
+<!--Space Between Y-->
+<div class="flex flex-col mt-4 space-y-4">
+  <div>Item 1</div>
+  <div>Item 2</div>
+  <div>Item 3</div>
+  <div>Item 4</div>
+  <div>Item 5</div>
+</div>
+</body>
+</html>
+
+<!--Breakpoints for container
+    Container None   width: 100%;
+    sm(640px)        max-width: 640px;
+    md(768px)        max-width: 768px;
+    lg(1024px)        max-width: 1024px;
+    xl(1280px)        max-width: 1280px;
+    2xl(1536px)        max-width: 1536px;
+   -->
