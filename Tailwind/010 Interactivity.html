@@ -1,10 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Interactivity</title>
 </head>
 <body>
+<!--Hover state styling-->
+<button class="bg-black text-white py-3 px-5 rounded-lg m-3 hover:bg-orange-500 hover:text-white">Submit</button>
+
+<!--Focus state styling-->
+<button class="bg-black text-white py-3 px-5 rounded-lg m-3 focus:bg-green-500 focus:text-white">Submit</button>
+
+<!--Active state styling-->
+<button class="bg-black text-white py-3 px-5 rounded-lg m-3 active:bg-yellow-500 active:text-white">Submit</button>
+
+<!--Styling based on parent state-->
+<a href="" class="group block max-w-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-500">
+    <h3 class="group-hover:text-white">Card Title</h3>
+    <p class="group-hover:text-white">This is the card text</p>
+</a>
+<!--Pseudo Classes-->
+<ul class="m-3">
+    <li class="first:bg-red-200">Item 1</li>
+    <li class="first:bg-red-200">Item 2</li>
+    <li class="first:bg-red-200">Item 3</li>
+    <li class="first:bg-red-200">Item 4</li>
+    <li class="first:bg-red-200">Item 5</li>
+    <li class="first:bg-red-200">Item 6</li>
+</ul>
+
+<ul class="m-3">
+    <li class="even:bg-green-500 odd:bg-orange-500">Item 1</li>
+    <li class="even:bg-green-500 odd:bg-orange-500">Item 2</li>
+    <li class="even:bg-green-500 odd:bg-orange-500">Item 3</li>
+    <li class="even:bg-green-500 odd:bg-orange-500">Item 4</li>
+    <li class="even:bg-green-500 odd:bg-orange-500">Item 5</li>
+    <li class="even:bg-green-500 odd:bg-orange-500">Item 6</li>
+</ul>
+<br>
+<!--Appearance-->
+<!--Use appearance-none to reset any browser specific styling on
+an element. This utility is often used when creating custom form
+components-->
+<select class="appearance-none">
+    <option value="yes">Yes</option>
+    <option value="No">No</option>
+</select>
+<br>
+<!--Cursor-->
+<button class="bg-black text-white py-3 px-5 rounded-lg m-3 cursor-wait">Submit</button>
+<button class="bg-black text-white py-3 px-5 rounded-lg m-3 cursor-not-allowed">Submit</button>
+<button class="bg-black text-white py-3 px-5 rounded-lg m-3 cursor-move">Submit</button>
+
+<!--User Select-->
+<div class="select-none">Lorem ipsum dolor sit amet.</div>
+<div class="select-text">Lorem ipsum dolor sit amet.</div>
+<div class="select-all">Lorem ipsum dolor sit amet.</div>
+<div class="select-auto">Lorem ipsum dolor sit amet.</div>
+
+<a href="#item" class="block my-6">Go to Item</a>
+<!--Smooth Scroll Example-->
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta nesciunt non, quaerat quo quos sunt vel vitae. Accusamus architecto aspernatur assumenda culpa cumque deserunt dolor ducimus eligendi enim esse est ex explicabo fugit hic ipsam iste laborum necessitatibus non quas quasi quisquam quos rerum sapiente, similique ullam veniam voluptatibus voluptatum! Dignissimos distinctio ducimus eligendi, illum impedit, labore molestiae optio pariatur quae quis repellat rerum sed sequi tempora unde, veniam vero voluptas voluptatem? Accusamus aliquam animi architecto assumenda, blanditiis cum cupiditate dolor dolorem eveniet expedita explicabo id in incidunt labore laudantium libero maxime modi molestias nam nemo nesciunt non odio quaerat quam quibusdam quos repellat sed sequi suscipit voluptas? Ad alias aliquam aut beatae cum cumque enim exercitationem ipsam laboriosam laudantium libero modi mollitia natus nobis obcaecati omnis, quam recusandae reiciendis repellendus repudiandae sint, tempore temporibus? A amet animi cum eum explicabo illum ipsum itaque, laborum magnam molestias nemo, neque nobis non officiis optio quaerat quo recusandae repudiandae ullam, vero? Consectetur cupiditate dolorem expedita illo laudantium nemo nulla, omnis possimus quis quos sapiente, sequi vitae! Ad delectus deserunt facere itaque iusto magnam modi nemo nobis odit porro provident, tenetur vero voluptate. A culpa cupiditate dolores dolorum earum eligendi, labore molestias, non odio optio porro quidem quo reprehenderit suscipit tempore vero voluptatem voluptatibus? Ab accusantium atque beatae culpa distinctio ea earum eius ex ipsam iusto laboriosam maiores minus modi molestias natus nemo nesciunt nihil numquam quis quod rem rerum sapiente sequi, similique sint, tempora vel veniam vero voluptates voluptatibus? Et minus, quos. Atque enim harum minus ullam. Ad consequatur cum deleniti exercitationem fuga harum illo incidunt minima, quaerat similique. Ad, aliquid, amet architecto asperiores consequatur corporis dicta dolor enim iure laboriosam minima non officiis omnis optio pariatur, porro sit unde. Aliquam architecto asperiores autem, consequuntur culpa cumque deserunt dolor dolores expedita fugit id iste, laboriosam nisi nostrum odio quisquam sunt tenetur, ut vel voluptas. Alias, aliquam asperiores atque aut commodi consectetur cumque dolorem doloremque ea, est fugiat harum in iure magni modi nam nisi nulla officiis omnis pariatur praesentium quas qui saepe sapiente veritatis! Consequatur doloremque ea eaque et, iusto neque praesentium quisquam sint! Architecto doloribus excepturi fugit id incidunt ipsa, officiis pariatur quae reiciendis veritatis. Accusamus alias consectetur doloremque dolores mollitia. Cum harum qui vero! Accusamus assumenda corporis et eveniet ex hic odit, praesentium saepe, sapiente similique temporibus voluptas? A aspernatur consectetur, illum maiores placeat vel voluptates. Delectus eaque recusandae repudiandae!</p>
+<div id="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet consectetur distinctio dolorum fugiat hic ipsa molestiae perspiciatis tenetur. Aspernatur autem delectus eum eveniet facilis, ipsum laborum natus. Consequuntur laboriosam nam pariatur praesentium quae quibusdam repellat? At explicabo harum laboriosam maxime nesciunt pariatur perferendis repellat rerum temporibus, totam veniam voluptatem.</div>
 
 </body>
 </html>
