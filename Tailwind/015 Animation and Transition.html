@@ -4,6 +4,19 @@
     <meta charset="UTF-8">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Transition and Transform</title>
+<script>
+    tailwind.config = {
+        theme:{
+            extend:{
+                transitionDuration:{
+                    2000: '2000ms'
+                }
+            }
+        }
+    }
+</script>
+
+
 </head>
 <body>
 <button class="px-8 py-2 m-24 text-white bg-blue-500 rounded hover:bg-blue-700">Click me</button>
@@ -16,5 +29,7 @@
 <button class="hover:rotate-12 transition:transform duration-1000 px-8 py-2 m-24 text-white bg-blue-500 rounded hover:bg-blue-700">Click me</button>
 
 <img src="laptop.jpg" class="w-48 hover:rotate-180 hover:scale-75 hover:skew-x-12 transition duration-1000" alt="">
+<img src="laptop.jpg" class="w-48 hover:rotate-180 hover:scale-75 hover:skew-x-12 transition duration-2000" alt="">
+
 </body>
 </html>
