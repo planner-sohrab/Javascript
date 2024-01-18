@@ -12,7 +12,7 @@
         tailwind.config ={
             theme:{
                 fontFamily:{
-                    sans : ['Mukesh', 'sans-serif'],
+                    sans : ['Mulish', 'sans-serif'],
                     mono: ['Rokkitt', 'monospace'],
                 }
             }
@@ -20,6 +20,20 @@
     </script>
 </head>
 <body>
-
+<!--Global Container-->
+<div class="flex items-center justify-center min-h-screen bg-rose-50">
+<!--    Card Container-->
+    <div class="relative flex flex-col m-6 space-y-10 bg-white shadow-2xl rounded-2xl md:flex-row md:space-y-0 md:m-0">
+<!--        Left Side-->
+        <div class="p-6 md:p-20">
+<!--            Top Content-->
+            <h2 class="font-mono mb-5 text-4xl font-bold">Log In</h2>
+            <p class="max-w-sm mb-12 font-sans font-light text-gray-600">
+                Log in to your account to upload or download pictures, videos or
+                music.
+            </p>
+        </div>
+    </div>
+</div>
 </body>
 </html>
