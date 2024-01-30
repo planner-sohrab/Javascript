@@ -7,3 +7,8 @@ body{
     background-repeat: no-repeat;
     background-size:contain;
     }
+ @media(max-width:576px){
+     body{
+         background-image: url('images/bg-header-mobile.png');
+     }
+ }
