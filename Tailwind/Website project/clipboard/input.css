@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+.section-container{
+    @apply max-w-6xl mx-auto text-center;
+}
+@layer base{
+    h3{
+        @apply
+    }
+}
+
 body{
     background-image: url('images/bg-header-desktop.png');
     background-repeat: no-repeat;
